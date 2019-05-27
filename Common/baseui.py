@@ -24,7 +24,7 @@ def shot(func):
 
 class baseUI():
 
-    def __init__(self,driver):
+    def __init__(self, driver: object) -> object:
         self.driver = driver
 
     def local_element(self,xpath):
@@ -53,7 +53,8 @@ class baseUI():
         :return:
         '''
         element = self.local_element(xpath)
-        element.click()
+        ActionChains(self.driver).move_to_element(element).click().perform()
+        # element.click()
     @shot
     def scroll_screen(self,step):
         '''
