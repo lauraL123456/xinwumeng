@@ -23,9 +23,9 @@ if __name__ == '__main__':
     html_report_path = './Report/report/'
 
 
-    pytest.main(['-v', '--alluredir',xml_report_path,'./testCase'])
-    #cmd = 'allure generate %s -o %s' % (xml_report_path, html_report_path)
-    cmd = "allure generate %s -o ./Report/report/ --clean"%(xml_report_path)
+    pytest.main(['-v', '--alluredir',xml_report_path,'./testCase/test_111.py'])
+    # cmd = 'allure generate %s -o %s' % (xml_report_path, html_report_path)
+    cmd = "allure generate ./Report/xml/ -o ./Report/report/ "
 
     try:
         shell.invoke(cmd)
