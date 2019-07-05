@@ -1,0 +1,220 @@
+{
+  "uid" : "1c6adabba34a5f88",
+  "name" : "test_zhuce",
+  "fullName" : "testCase.test_zhuce.TestUI#test_zhuce",
+  "historyId" : "fbfe66d2dfc8ddf29351faa5445512f5",
+  "time" : {
+    "start" : 1562207932851,
+    "stop" : 1562207948981,
+    "duration" : 16130
+  },
+  "status" : "broken",
+  "statusMessage" : "selenium.common.exceptions.TimeoutException: Message:",
+  "statusTrace" : "self = <testCase.test_zhuce.TestUI object at 0x0480C390>\ndriver = <selenium.webdriver.chrome.webdriver.WebDriver (session=\"8bbb2a6f39263920b1557262f8b1efe7\")>\n\n    def test_zhuce(self,driver):\n        base = baseUI(driver)\n        driver.get(\"http://10.10.10.149:8081\")  # 货主承运\n        base.click('注册新账号',\"//span[contains(text(),'注册新账号')]\")\n        base.click('点击\"知道了\"注册须知',\"//*[@id='app']/div/div[2]/div/div/button/span\")\n        base.send_keys('输入手机号','//input[@class=\"el-input__inner\"]',\"18201972309\")\n        base.click('获取验证码',\"//span[contains(text(),'获取验证码')]\")\n        base.send_keys('输入验证码','(//input[@class=\"el-input__inner\"])[2]',\"    \")# ------------------\n        base.click('勾选服务条款协议','//span[@class=\"el-checkbox__inner\"]')\n        base.click('下一步',\"//span[contains(text(),'下一步')]\")\n        base.send_keys('上传营业执照','//i[@class=\"el-icon-plus avatar-uploader-icon\"]',\n>                      \"C:\\\\Users\\\\DELL\\\\Desktop\\\\认证图片\\\\营业执照(1)\\\\营业执照\\\\南京聚力医药.jpg\")\n\ntestCase\\test_zhuce.py:20: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\nCommon\\baseui.py:19: in function\n    res = func(*args, **kwargs)\nCommon\\baseui.py:42: in send_keys\n    element = self.local_element(xpath)\nCommon\\baseui.py:31: in local_element\n    return WebDriverWait(self.driver, 10, 0.5).until(EC.presence_of_element_located((By.XPATH,xpath)))\n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\n\nself = <selenium.webdriver.support.wait.WebDriverWait (session=\"8bbb2a6f39263920b1557262f8b1efe7\")>\nmethod = <selenium.webdriver.support.expected_conditions.presence_of_element_located object at 0x04801FF0>\nmessage = ''\n\n    def until(self, method, message=''):\n        \"\"\"Calls the method provided with the driver as an argument until the \\\n        return value is not False.\"\"\"\n        screen = None\n        stacktrace = None\n    \n        end_time = time.time() + self._timeout\n        while True:\n            try:\n                value = method(self._driver)\n                if value:\n                    return value\n            except self._ignored_exceptions as exc:\n                screen = getattr(exc, 'screen', None)\n                stacktrace = getattr(exc, 'stacktrace', None)\n            time.sleep(self._poll)\n            if time.time() > end_time:\n                break\n>       raise TimeoutException(message, screen, stacktrace)\nE       selenium.common.exceptions.TimeoutException: Message:\n\n..\\..\\..\\AppData\\Local\\Programs\\Python\\Python37-32\\lib\\site-packages\\selenium\\webdriver\\support\\wait.py:80: TimeoutException",
+  "flaky" : false,
+  "beforeStages" : [ {
+    "name" : "__pytest_repeat_step_number",
+    "time" : {
+      "start" : 1562207932850,
+      "stop" : 1562207932850,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "driver",
+    "time" : {
+      "start" : 1562207895028,
+      "stop" : 1562207900939,
+      "duration" : 5911
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "selenium.common.exceptions.TimeoutException: Message:",
+    "statusTrace" : "self = <testCase.test_zhuce.TestUI object at 0x0480C390>\ndriver = <selenium.webdriver.chrome.webdriver.WebDriver (session=\"8bbb2a6f39263920b1557262f8b1efe7\")>\n\n    def test_zhuce(self,driver):\n        base = baseUI(driver)\n        driver.get(\"http://10.10.10.149:8081\")  # 货主承运\n        base.click('注册新账号',\"//span[contains(text(),'注册新账号')]\")\n        base.click('点击\"知道了\"注册须知',\"//*[@id='app']/div/div[2]/div/div/button/span\")\n        base.send_keys('输入手机号','//input[@class=\"el-input__inner\"]',\"18201972309\")\n        base.click('获取验证码',\"//span[contains(text(),'获取验证码')]\")\n        base.send_keys('输入验证码','(//input[@class=\"el-input__inner\"])[2]',\"    \")# ------------------\n        base.click('勾选服务条款协议','//span[@class=\"el-checkbox__inner\"]')\n        base.click('下一步',\"//span[contains(text(),'下一步')]\")\n        base.send_keys('上传营业执照','//i[@class=\"el-icon-plus avatar-uploader-icon\"]',\n>                      \"C:\\\\Users\\\\DELL\\\\Desktop\\\\认证图片\\\\营业执照(1)\\\\营业执照\\\\南京聚力医药.jpg\")\n\ntestCase\\test_zhuce.py:20: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\nCommon\\baseui.py:19: in function\n    res = func(*args, **kwargs)\nCommon\\baseui.py:42: in send_keys\n    element = self.local_element(xpath)\nCommon\\baseui.py:31: in local_element\n    return WebDriverWait(self.driver, 10, 0.5).until(EC.presence_of_element_located((By.XPATH,xpath)))\n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\n\nself = <selenium.webdriver.support.wait.WebDriverWait (session=\"8bbb2a6f39263920b1557262f8b1efe7\")>\nmethod = <selenium.webdriver.support.expected_conditions.presence_of_element_located object at 0x04801FF0>\nmessage = ''\n\n    def until(self, method, message=''):\n        \"\"\"Calls the method provided with the driver as an argument until the \\\n        return value is not False.\"\"\"\n        screen = None\n        stacktrace = None\n    \n        end_time = time.time() + self._timeout\n        while True:\n            try:\n                value = method(self._driver)\n                if value:\n                    return value\n            except self._ignored_exceptions as exc:\n                screen = getattr(exc, 'screen', None)\n                stacktrace = getattr(exc, 'stacktrace', None)\n            time.sleep(self._poll)\n            if time.time() > end_time:\n                break\n>       raise TimeoutException(message, screen, stacktrace)\nE       selenium.common.exceptions.TimeoutException: Message:\n\n..\\..\\..\\AppData\\Local\\Programs\\Python\\Python37-32\\lib\\site-packages\\selenium\\webdriver\\support\\wait.py:80: TimeoutException",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "516a1174d66e5a2e",
+      "name" : "注册新账号之前",
+      "source" : "516a1174d66e5a2e.png",
+      "type" : "image/png",
+      "size" : 177036
+    }, {
+      "uid" : "d6081218b0d1b9bc",
+      "name" : "注册新账号之后",
+      "source" : "d6081218b0d1b9bc.png",
+      "type" : "image/png",
+      "size" : 31547
+    }, {
+      "uid" : "a8f342ced803ccd1",
+      "name" : "点击\"知道了\"注册须知之前",
+      "source" : "a8f342ced803ccd1.png",
+      "type" : "image/png",
+      "size" : 31139
+    }, {
+      "uid" : "2e81214ceac728ca",
+      "name" : "点击\"知道了\"注册须知之后",
+      "source" : "2e81214ceac728ca.png",
+      "type" : "image/png",
+      "size" : 25319
+    }, {
+      "uid" : "145ebdb2c694f34f",
+      "name" : "输入手机号之前",
+      "source" : "145ebdb2c694f34f.png",
+      "type" : "image/png",
+      "size" : 25319
+    }, {
+      "uid" : "d0ff6e614198100a",
+      "name" : "输入手机号之后",
+      "source" : "d0ff6e614198100a.png",
+      "type" : "image/png",
+      "size" : 28369
+    }, {
+      "uid" : "79d78d817ec01bc9",
+      "name" : "获取验证码之前",
+      "source" : "79d78d817ec01bc9.png",
+      "type" : "image/png",
+      "size" : 26459
+    }, {
+      "uid" : "d44e338e59081cda",
+      "name" : "获取验证码之后",
+      "source" : "d44e338e59081cda.png",
+      "type" : "image/png",
+      "size" : 26030
+    }, {
+      "uid" : "3eb3c3ac80b70ca7",
+      "name" : "输入验证码之前",
+      "source" : "3eb3c3ac80b70ca7.png",
+      "type" : "image/png",
+      "size" : 26001
+    }, {
+      "uid" : "b1bf0d61da647c4a",
+      "name" : "输入验证码之后",
+      "source" : "b1bf0d61da647c4a.png",
+      "type" : "image/png",
+      "size" : 25993
+    }, {
+      "uid" : "2fc4fd5ef2d51426",
+      "name" : "勾选服务条款协议之前",
+      "source" : "2fc4fd5ef2d51426.png",
+      "type" : "image/png",
+      "size" : 25993
+    }, {
+      "uid" : "5c8c651059eee856",
+      "name" : "勾选服务条款协议之后",
+      "source" : "5c8c651059eee856.png",
+      "type" : "image/png",
+      "size" : 30000
+    }, {
+      "uid" : "d58f617a958cfa45",
+      "name" : "下一步之前",
+      "source" : "d58f617a958cfa45.png",
+      "type" : "image/png",
+      "size" : 27646
+    }, {
+      "uid" : "9da7a817e25b2a36",
+      "name" : "下一步之后",
+      "source" : "9da7a817e25b2a36.png",
+      "type" : "image/png",
+      "size" : 27524
+    }, {
+      "uid" : "c7497d8ecd47dfc0",
+      "name" : "上传营业执照之前",
+      "source" : "c7497d8ecd47dfc0.png",
+      "type" : "image/png",
+      "size" : 27536
+    }, {
+      "uid" : "f2aca468295ccf2d",
+      "name" : "log",
+      "source" : "f2aca468295ccf2d.txt",
+      "type" : "text/plain",
+      "size" : 15463
+    }, {
+      "uid" : "6c149a377c9f635e",
+      "name" : "stdout",
+      "source" : "6c149a377c9f635e.txt",
+      "type" : "text/plain",
+      "size" : 0
+    }, {
+      "uid" : "6bee67d34e150320",
+      "name" : "stderr",
+      "source" : "6bee67d34e150320.txt",
+      "type" : "text/plain",
+      "size" : 0
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : true,
+    "shouldDisplayMessage" : true,
+    "attachmentsCount" : 18
+  },
+  "afterStages" : [ {
+    "name" : "driver::0",
+    "time" : {
+      "start" : 1562207949050,
+      "stop" : 1562207952191,
+      "duration" : 3141
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "testCase"
+  }, {
+    "name" : "suite",
+    "value" : "test_zhuce"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestUI"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-380L58D"
+  }, {
+    "name" : "thread",
+    "value" : "23504-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "testCase.test_zhuce"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "1c6adabba34a5f88.json",
+  "parameterValues" : [ ]
+}

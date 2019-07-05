@@ -1,0 +1,37 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "DESKTOP-380L58D",
+    "children" : [ {
+      "name" : "14700-MainThread",
+      "children" : [ {
+        "name" : "test_zhuce",
+        "uid" : "650318c8505259ed",
+        "parentUid" : "2405e752e09dbfdc611f2c9061951314",
+        "status" : "broken",
+        "time" : {
+          "start" : 1562209656877,
+          "stop" : 1562209665448,
+          "duration" : 8571
+        },
+        "flaky" : true,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_111",
+        "uid" : "921fe3921c1a317e",
+        "parentUid" : "2405e752e09dbfdc611f2c9061951314",
+        "status" : "passed",
+        "time" : {
+          "start" : 1562209624065,
+          "stop" : 1562209656867,
+          "duration" : 32802
+        },
+        "flaky" : true,
+        "parameters" : [ ]
+      } ],
+      "uid" : "2405e752e09dbfdc611f2c9061951314"
+    } ],
+    "uid" : "370dfe00fcafb509b62f3b3542d0e686"
+  } ]
+}

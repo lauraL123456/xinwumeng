@@ -1,0 +1,630 @@
+{
+  "uid" : "efa032f7dca6a874",
+  "name" : "test_111",
+  "fullName" : "testCase.test_111.TestUI#test_111",
+  "historyId" : "604a885bdaaf7a2df7166a539da70611",
+  "time" : {
+    "start" : 1562209183196,
+    "stop" : 1562209215329,
+    "duration" : 32133
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ {
+    "name" : "driver",
+    "time" : {
+      "start" : 1562209177232,
+      "stop" : 1562209183191,
+      "duration" : 5959
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "__pytest_repeat_step_number",
+    "time" : {
+      "start" : 1562209183192,
+      "stop" : 1562209183192,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "b2bae08f0b54533f",
+      "name" : "输入用户名之前",
+      "source" : "b2bae08f0b54533f.png",
+      "type" : "image/png",
+      "size" : 171449
+    }, {
+      "uid" : "83d141c7c7f09d75",
+      "name" : "输入用户名之后",
+      "source" : "83d141c7c7f09d75.png",
+      "type" : "image/png",
+      "size" : 170473
+    }, {
+      "uid" : "458087955901b997",
+      "name" : "输入密码之前",
+      "source" : "458087955901b997.png",
+      "type" : "image/png",
+      "size" : 170445
+    }, {
+      "uid" : "3f06d7db70309801",
+      "name" : "输入密码之后",
+      "source" : "3f06d7db70309801.png",
+      "type" : "image/png",
+      "size" : 169048
+    }, {
+      "uid" : "9d3170ddb4849151",
+      "name" : "点击登录之前",
+      "source" : "9d3170ddb4849151.png",
+      "type" : "image/png",
+      "size" : 169048
+    }, {
+      "uid" : "347481026dc3d271",
+      "name" : "点击登录之后",
+      "source" : "347481026dc3d271.png",
+      "type" : "image/png",
+      "size" : 169308
+    }, {
+      "uid" : "b474741814571ec5",
+      "name" : "点击运输相关配置之前",
+      "source" : "b474741814571ec5.png",
+      "type" : "image/png",
+      "size" : 52089
+    }, {
+      "uid" : "db3a677f425a1e19",
+      "name" : "点击运输相关配置之后",
+      "source" : "db3a677f425a1e19.png",
+      "type" : "image/png",
+      "size" : 58092
+    }, {
+      "uid" : "c91d0e4749fa55fa",
+      "name" : "点击运输类型之前",
+      "source" : "c91d0e4749fa55fa.png",
+      "type" : "image/png",
+      "size" : 63880
+    }, {
+      "uid" : "2aa23d64bfb5429b",
+      "name" : "点击运输类型之后",
+      "source" : "2aa23d64bfb5429b.png",
+      "type" : "image/png",
+      "size" : 47461
+    }, {
+      "uid" : "46d15f9480c1ef94",
+      "name" : "输入代码之前",
+      "source" : "46d15f9480c1ef94.png",
+      "type" : "image/png",
+      "size" : 27733
+    }, {
+      "uid" : "d4c9eceb3d252aba",
+      "name" : "输入代码之后",
+      "source" : "d4c9eceb3d252aba.png",
+      "type" : "image/png",
+      "size" : 63428
+    }, {
+      "uid" : "dddaaad22d8699b4",
+      "name" : "输入名称之前",
+      "source" : "dddaaad22d8699b4.png",
+      "type" : "image/png",
+      "size" : 54928
+    }, {
+      "uid" : "64b246ae51361791",
+      "name" : "输入名称之后",
+      "source" : "64b246ae51361791.png",
+      "type" : "image/png",
+      "size" : 54247
+    }, {
+      "uid" : "686b51fb52691f01",
+      "name" : "点击查询之前",
+      "source" : "686b51fb52691f01.png",
+      "type" : "image/png",
+      "size" : 54184
+    }, {
+      "uid" : "1277955e43098344",
+      "name" : "点击查询之后",
+      "source" : "1277955e43098344.png",
+      "type" : "image/png",
+      "size" : 33519
+    }, {
+      "uid" : "d8c5bdb3d11a9f56",
+      "name" : "点击清空之前",
+      "source" : "d8c5bdb3d11a9f56.png",
+      "type" : "image/png",
+      "size" : 33518
+    }, {
+      "uid" : "1eae6c6b5c1e7eb9",
+      "name" : "点击清空之后",
+      "source" : "1eae6c6b5c1e7eb9.png",
+      "type" : "image/png",
+      "size" : 35653
+    }, {
+      "uid" : "26986fb177631ba1",
+      "name" : "点击查询之前",
+      "source" : "26986fb177631ba1.png",
+      "type" : "image/png",
+      "size" : 35665
+    }, {
+      "uid" : "105e258d834bba16",
+      "name" : "点击查询之后",
+      "source" : "105e258d834bba16.png",
+      "type" : "image/png",
+      "size" : 55772
+    }, {
+      "uid" : "411d7ca3f7347bca",
+      "name" : "点击新增之前",
+      "source" : "411d7ca3f7347bca.png",
+      "type" : "image/png",
+      "size" : 55781
+    }, {
+      "uid" : "821f91b0ef0ecc8e",
+      "name" : "点击新增之后",
+      "source" : "821f91b0ef0ecc8e.png",
+      "type" : "image/png",
+      "size" : 54555
+    }, {
+      "uid" : "3544a4bbfef52e3e",
+      "name" : "输入代码之前",
+      "source" : "3544a4bbfef52e3e.png",
+      "type" : "image/png",
+      "size" : 54596
+    }, {
+      "uid" : "75a3a2e1006c31c0",
+      "name" : "输入代码之后",
+      "source" : "75a3a2e1006c31c0.png",
+      "type" : "image/png",
+      "size" : 53174
+    }, {
+      "uid" : "d141008d3f552c13",
+      "name" : "输入名称之前",
+      "source" : "d141008d3f552c13.png",
+      "type" : "image/png",
+      "size" : 53187
+    }, {
+      "uid" : "1d98dda1b318514",
+      "name" : "输入名称之后",
+      "source" : "1d98dda1b318514.png",
+      "type" : "image/png",
+      "size" : 53342
+    }, {
+      "uid" : "6215071fc25c0671",
+      "name" : "点击失效日期框之前",
+      "source" : "6215071fc25c0671.png",
+      "type" : "image/png",
+      "size" : 53354
+    }, {
+      "uid" : "b42f0d4a0ede699a",
+      "name" : "点击失效日期框之后",
+      "source" : "b42f0d4a0ede699a.png",
+      "type" : "image/png",
+      "size" : 62773
+    }, {
+      "uid" : "fcbfd5924269ef45",
+      "name" : "点击日期之前",
+      "source" : "fcbfd5924269ef45.png",
+      "type" : "image/png",
+      "size" : 58567
+    }, {
+      "uid" : "f024360faf34fa33",
+      "name" : "点击日期之后",
+      "source" : "f024360faf34fa33.png",
+      "type" : "image/png",
+      "size" : 52759
+    }, {
+      "uid" : "604722a6e51734a6",
+      "name" : "点击确定之前",
+      "source" : "604722a6e51734a6.png",
+      "type" : "image/png",
+      "size" : 52748
+    }, {
+      "uid" : "38ce1248bfb882b9",
+      "name" : "点击确定之后",
+      "source" : "38ce1248bfb882b9.png",
+      "type" : "image/png",
+      "size" : 71525
+    }, {
+      "uid" : "3099eb00184799e1",
+      "name" : "点击编辑第四个之前",
+      "source" : "3099eb00184799e1.png",
+      "type" : "image/png",
+      "size" : 57650
+    }, {
+      "uid" : "4a767db3d74a537c",
+      "name" : "点击编辑第四个之后",
+      "source" : "4a767db3d74a537c.png",
+      "type" : "image/png",
+      "size" : 64536
+    }, {
+      "uid" : "51de779ee9c2d42e",
+      "name" : "输入代码之前",
+      "source" : "51de779ee9c2d42e.png",
+      "type" : "image/png",
+      "size" : 54143
+    }, {
+      "uid" : "ba8a33179e4ab62a",
+      "name" : "输入代码之后",
+      "source" : "ba8a33179e4ab62a.png",
+      "type" : "image/png",
+      "size" : 54072
+    }, {
+      "uid" : "f4f611028a9546ab",
+      "name" : "输入名称之前",
+      "source" : "f4f611028a9546ab.png",
+      "type" : "image/png",
+      "size" : 54022
+    }, {
+      "uid" : "da1f2b97df38978a",
+      "name" : "输入名称之后",
+      "source" : "da1f2b97df38978a.png",
+      "type" : "image/png",
+      "size" : 54453
+    }, {
+      "uid" : "32d417c9c92105aa",
+      "name" : "点击失效日期之前",
+      "source" : "32d417c9c92105aa.png",
+      "type" : "image/png",
+      "size" : 54452
+    }, {
+      "uid" : "c9babe0734057db8",
+      "name" : "点击失效日期之后",
+      "source" : "c9babe0734057db8.png",
+      "type" : "image/png",
+      "size" : 60645
+    }, {
+      "uid" : "69763d3213f5b716",
+      "name" : "点击日期之前",
+      "source" : "69763d3213f5b716.png",
+      "type" : "image/png",
+      "size" : 60625
+    }, {
+      "uid" : "59d446bece76acc1",
+      "name" : "点击日期之后",
+      "source" : "59d446bece76acc1.png",
+      "type" : "image/png",
+      "size" : 54688
+    }, {
+      "uid" : "d28b50edebf6b93e",
+      "name" : "点击确定之前",
+      "source" : "d28b50edebf6b93e.png",
+      "type" : "image/png",
+      "size" : 54690
+    }, {
+      "uid" : "d413bc23d20b1d3f",
+      "name" : "点击确定之后",
+      "source" : "d413bc23d20b1d3f.png",
+      "type" : "image/png",
+      "size" : 72291
+    }, {
+      "uid" : "eb7f122455c8aa43",
+      "name" : "点击运输方式之前",
+      "source" : "eb7f122455c8aa43.png",
+      "type" : "image/png",
+      "size" : 57416
+    }, {
+      "uid" : "96a7b8464316cc7b",
+      "name" : "点击运输方式之后",
+      "source" : "96a7b8464316cc7b.png",
+      "type" : "image/png",
+      "size" : 60673
+    }, {
+      "uid" : "42401bb23a11acd",
+      "name" : "输入代码之前",
+      "source" : "42401bb23a11acd.png",
+      "type" : "image/png",
+      "size" : 30396
+    }, {
+      "uid" : "a5c78c523d5a048c",
+      "name" : "输入代码之后",
+      "source" : "a5c78c523d5a048c.png",
+      "type" : "image/png",
+      "size" : 67593
+    }, {
+      "uid" : "957a4e802502e35e",
+      "name" : "输入名称之前",
+      "source" : "957a4e802502e35e.png",
+      "type" : "image/png",
+      "size" : 56701
+    }, {
+      "uid" : "8bd6c6b66300cb9f",
+      "name" : "输入名称之后",
+      "source" : "8bd6c6b66300cb9f.png",
+      "type" : "image/png",
+      "size" : 55817
+    }, {
+      "uid" : "fa83afaf801486f5",
+      "name" : "点击查询之前",
+      "source" : "fa83afaf801486f5.png",
+      "type" : "image/png",
+      "size" : 55820
+    }, {
+      "uid" : "afdbf8b8ac666c54",
+      "name" : "点击查询之后",
+      "source" : "afdbf8b8ac666c54.png",
+      "type" : "image/png",
+      "size" : 41289
+    }, {
+      "uid" : "6413ff5071ca7e5",
+      "name" : "点击新增之前",
+      "source" : "6413ff5071ca7e5.png",
+      "type" : "image/png",
+      "size" : 41241
+    }, {
+      "uid" : "3392900f151dd1e7",
+      "name" : "点击新增之后",
+      "source" : "3392900f151dd1e7.png",
+      "type" : "image/png",
+      "size" : 57753
+    }, {
+      "uid" : "9e8bee14461219c0",
+      "name" : "输入代码之前",
+      "source" : "9e8bee14461219c0.png",
+      "type" : "image/png",
+      "size" : 48406
+    }, {
+      "uid" : "a3b9df4a804c7c93",
+      "name" : "输入代码之后",
+      "source" : "a3b9df4a804c7c93.png",
+      "type" : "image/png",
+      "size" : 47029
+    }, {
+      "uid" : "f244f74fb8c1e76b",
+      "name" : "输入名称之前",
+      "source" : "f244f74fb8c1e76b.png",
+      "type" : "image/png",
+      "size" : 47029
+    }, {
+      "uid" : "a423d7cfdb8d1de9",
+      "name" : "输入名称之后",
+      "source" : "a423d7cfdb8d1de9.png",
+      "type" : "image/png",
+      "size" : 45410
+    }, {
+      "uid" : "a23e374c6db72fe",
+      "name" : "点击复选框之前",
+      "source" : "a23e374c6db72fe.png",
+      "type" : "image/png",
+      "size" : 45445
+    }, {
+      "uid" : "8163ed8c152d0eba",
+      "name" : "点击复选框之后",
+      "source" : "8163ed8c152d0eba.png",
+      "type" : "image/png",
+      "size" : 45528
+    }, {
+      "uid" : "3a9c5937f231641e",
+      "name" : "点击失效日期之前",
+      "source" : "3a9c5937f231641e.png",
+      "type" : "image/png",
+      "size" : 45528
+    }, {
+      "uid" : "aa9bef25cd2f039e",
+      "name" : "点击失效日期之后",
+      "source" : "aa9bef25cd2f039e.png",
+      "type" : "image/png",
+      "size" : 58953
+    }, {
+      "uid" : "96dc8844bc91c5a0",
+      "name" : "选择日期之前",
+      "source" : "96dc8844bc91c5a0.png",
+      "type" : "image/png",
+      "size" : 54845
+    }, {
+      "uid" : "ad9090f981137c17",
+      "name" : "选择日期之后",
+      "source" : "ad9090f981137c17.png",
+      "type" : "image/png",
+      "size" : 45112
+    }, {
+      "uid" : "c59c225cd7ef2191",
+      "name" : "点击确定之前",
+      "source" : "c59c225cd7ef2191.png",
+      "type" : "image/png",
+      "size" : 45048
+    }, {
+      "uid" : "14f5a1ced3589aad",
+      "name" : "点击确定之后",
+      "source" : "14f5a1ced3589aad.png",
+      "type" : "image/png",
+      "size" : 57784
+    }, {
+      "uid" : "a437b3086e0d5daf",
+      "name" : "输入代码之前",
+      "source" : "a437b3086e0d5daf.png",
+      "type" : "image/png",
+      "size" : 41913
+    }, {
+      "uid" : "cdf73cd76f71c97f",
+      "name" : "输入代码之后",
+      "source" : "cdf73cd76f71c97f.png",
+      "type" : "image/png",
+      "size" : 41368
+    }, {
+      "uid" : "cb0d39749044c6a9",
+      "name" : "输入名称之前",
+      "source" : "cb0d39749044c6a9.png",
+      "type" : "image/png",
+      "size" : 41364
+    }, {
+      "uid" : "d6060ff84d1cea19",
+      "name" : "输入名称之后",
+      "source" : "d6060ff84d1cea19.png",
+      "type" : "image/png",
+      "size" : 41232
+    }, {
+      "uid" : "f163f60710751307",
+      "name" : "点击查询之前",
+      "source" : "f163f60710751307.png",
+      "type" : "image/png",
+      "size" : 41176
+    }, {
+      "uid" : "2913fac15967341a",
+      "name" : "点击查询之后",
+      "source" : "2913fac15967341a.png",
+      "type" : "image/png",
+      "size" : 40656
+    }, {
+      "uid" : "1dd89fea4aa3851c",
+      "name" : "点击清空之前",
+      "source" : "1dd89fea4aa3851c.png",
+      "type" : "image/png",
+      "size" : 40611
+    }, {
+      "uid" : "f11a72d2d21697c0",
+      "name" : "点击清空之后",
+      "source" : "f11a72d2d21697c0.png",
+      "type" : "image/png",
+      "size" : 42587
+    }, {
+      "uid" : "7c1b0aa06635e873",
+      "name" : "点击查询之前",
+      "source" : "7c1b0aa06635e873.png",
+      "type" : "image/png",
+      "size" : 42587
+    }, {
+      "uid" : "192666425e6598f",
+      "name" : "点击查询之后",
+      "source" : "192666425e6598f.png",
+      "type" : "image/png",
+      "size" : 57088
+    }, {
+      "uid" : "c32b2adb02801409",
+      "name" : "点击编辑之前",
+      "source" : "c32b2adb02801409.png",
+      "type" : "image/png",
+      "size" : 57036
+    }, {
+      "uid" : "13439dd22f5291a8",
+      "name" : "点击编辑之后",
+      "source" : "13439dd22f5291a8.png",
+      "type" : "image/png",
+      "size" : 66358
+    }, {
+      "uid" : "397d5756c205aaad",
+      "name" : "点击取消之前",
+      "source" : "397d5756c205aaad.png",
+      "type" : "image/png",
+      "size" : 56566
+    }, {
+      "uid" : "7cc6525551e02630",
+      "name" : "点击取消之后",
+      "source" : "7cc6525551e02630.png",
+      "type" : "image/png",
+      "size" : 67998
+    }, {
+      "uid" : "5cf2cf1a437a7c2a",
+      "name" : "点击删除之前",
+      "source" : "5cf2cf1a437a7c2a.png",
+      "type" : "image/png",
+      "size" : 57633
+    }, {
+      "uid" : "2f35926a93d71289",
+      "name" : "点击删除之后",
+      "source" : "2f35926a93d71289.png",
+      "type" : "image/png",
+      "size" : 57765
+    }, {
+      "uid" : "c97cee0cf88d70dc",
+      "name" : "点击确定之前",
+      "source" : "c97cee0cf88d70dc.png",
+      "type" : "image/png",
+      "size" : 55548
+    }, {
+      "uid" : "cb4b613ae896a57f",
+      "name" : "点击确定之后",
+      "source" : "cb4b613ae896a57f.png",
+      "type" : "image/png",
+      "size" : 60855
+    }, {
+      "uid" : "74e674eac356bdb6",
+      "name" : "log",
+      "source" : "74e674eac356bdb6.txt",
+      "type" : "text/plain",
+      "size" : 87637
+    }, {
+      "uid" : "4aca3dfbdb2d4430",
+      "name" : "stdout",
+      "source" : "4aca3dfbdb2d4430.txt",
+      "type" : "text/plain",
+      "size" : 0
+    }, {
+      "uid" : "2cd8a9b9eae55251",
+      "name" : "stderr",
+      "source" : "2cd8a9b9eae55251.txt",
+      "type" : "text/plain",
+      "size" : 0
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : true,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 87
+  },
+  "afterStages" : [ {
+    "name" : "driver::0",
+    "time" : {
+      "start" : 1562209223937,
+      "stop" : 1562209226974,
+      "duration" : 3037
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "testCase"
+  }, {
+    "name" : "suite",
+    "value" : "test_111"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestUI"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-380L58D"
+  }, {
+    "name" : "thread",
+    "value" : "25208-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "testCase.test_111"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "efa032f7dca6a874.json",
+  "parameterValues" : [ ]
+}

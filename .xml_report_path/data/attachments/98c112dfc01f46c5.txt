@@ -1,0 +1,652 @@
+remote_connection.py       388 DEBUG    POST http://127.0.0.1:54281/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"browserName": "chrome", "platformName": "any", "goog:chromeOptions": {"extensions": [], "args": []}}}, "desiredCapabilities": {"browserName": "chrome", "version": "", "platform": "ANY", "goog:chromeOptions": {"extensions": [], "args": []}}}
+connectionpool.py          205 DEBUG    Starting new HTTP connection (1): 127.0.0.1:54281
+connectionpool.py          393 DEBUG    http://127.0.0.1:54281 "POST /session HTTP/1.1" 200 829
+remote_connection.py       440 DEBUG    Finished Request
+remote_connection.py       388 DEBUG    POST http://127.0.0.1:54281/session/8bbb2a6f39263920b1557262f8b1efe7/window/current/maximize {"windowHandle": "current", "sessionId": "8bbb2a6f39263920b1557262f8b1efe7"}
+connectionpool.py          393 DEBUG    http://127.0.0.1:54281 "POST /session/8bbb2a6f39263920b1557262f8b1efe7/window/current/maximize HTTP/1.1" 200 72
+remote_connection.py       440 DEBUG    Finished Request
+remote_connection.py       388 DEBUG    POST http://127.0.0.1:54281/session/8bbb2a6f39263920b1557262f8b1efe7/timeouts {"pageLoad": 10000, "sessionId": "8bbb2a6f39263920b1557262f8b1efe7"}
+connectionpool.py          393 DEBUG    http://127.0.0.1:54281 "POST /session/8bbb2a6f39263920b1557262f8b1efe7/timeouts HTTP/1.1" 200 283
+remote_connection.py       440 DEBUG    Finished Request
+remote_connection.py       388 DEBUG    POST http://127.0.0.1:54281/session/8bbb2a6f39263920b1557262f8b1efe7/timeouts {"ms": 10000.0, "type": "page load", "sessionId": "8bbb2a6f39263920b1557262f8b1efe7"}
+connectionpool.py          393 DEBUG    http://127.0.0.1:54281 "POST /session/8bbb2a6f39263920b1557262f8b1efe7/timeouts HTTP/1.1" 200 72
+remote_connection.py       440 DEBUG    Finished Request
+remote_connection.py       388 DEBUG    POST http://127.0.0.1:54281/session/8bbb2a6f39263920b1557262f8b1efe7/timeouts/async_script {"ms": 10000.0, "sessionId": "8bbb2a6f39263920b1557262f8b1efe7"}
+connectionpool.py          393 DEBUG    http://127.0.0.1:54281 "POST /session/8bbb2a6f39263920b1557262f8b1efe7/timeouts/async_script HTTP/1.1" 200 72
+remote_connection.py       440 DEBUG    Finished Request
+remote_connection.py       388 DEBUG    POST http://127.0.0.1:54281/session/8bbb2a6f39263920b1557262f8b1efe7/timeouts/implicit_wait {"ms": 10000.0, "sessionId": "8bbb2a6f39263920b1557262f8b1efe7"}
+connectionpool.py          393 DEBUG    http://127.0.0.1:54281 "POST /session/8bbb2a6f39263920b1557262f8b1efe7/timeouts/implicit_wait HTTP/1.1" 200 72
+remote_connection.py       440 DEBUG    Finished Request
+remote_connection.py       388 DEBUG    POST http://127.0.0.1:54281/session/8bbb2a6f39263920b1557262f8b1efe7/url {"url": "http://10.10.10.149", "sessionId": "8bbb2a6f39263920b1557262f8b1efe7"}
+connectionpool.py          393 DEBUG    http://127.0.0.1:54281 "POST /session/8bbb2a6f39263920b1557262f8b1efe7/url HTTP/1.1" 200 72
+remote_connection.py       440 DEBUG    Finished Request
+remote_connection.py       388 DEBUG    GET http://127.0.0.1:54281/session/8bbb2a6f39263920b1557262f8b1efe7/screenshot {"sessionId": "8bbb2a6f39263920b1557262f8b1efe7"}
+connectionpool.py          393 DEBUG    http://127.0.0.1:54281 "GET /session/8bbb2a6f39263920b1557262f8b1efe7/screenshot HTTP/1.1" 200 228630
+remote_connection.py       440 DEBUG    Finished Request
+remote_connection.py       388 DEBUG    POST http://127.0.0.1:54281/session/8bbb2a6f39263920b1557262f8b1efe7/element {"using": "xpath", "value": "//input[@name=\"username\"] ", "sessionId": "8bbb2a6f39263920b1557262f8b1efe7"}
+connectionpool.py          393 DEBUG    http://127.0.0.1:54281 "POST /session/8bbb2a6f39263920b1557262f8b1efe7/element HTTP/1.1" 200 102
+remote_connection.py       440 DEBUG    Finished Request
+remote_connection.py       388 DEBUG    POST http://127.0.0.1:54281/session/8bbb2a6f39263920b1557262f8b1efe7/element/0.4554306838687825-1/clear {"id": "0.4554306838687825-1", "sessionId": "8bbb2a6f39263920b1557262f8b1efe7"}
+connectionpool.py          393 DEBUG    http://127.0.0.1:54281 "POST /session/8bbb2a6f39263920b1557262f8b1efe7/element/0.4554306838687825-1/clear HTTP/1.1" 200 72
+remote_connection.py       440 DEBUG    Finished Request
+remote_connection.py       388 DEBUG    POST http://127.0.0.1:54281/session/8bbb2a6f39263920b1557262f8b1efe7/element/0.4554306838687825-1/value {"text": "admin", "value": ["a", "d", "m", "i", "n"], "id": "0.4554306838687825-1", "sessionId": "8bbb2a6f39263920b1557262f8b1efe7"}
+connectionpool.py          393 DEBUG    http://127.0.0.1:54281 "POST /session/8bbb2a6f39263920b1557262f8b1efe7/element/0.4554306838687825-1/value HTTP/1.1" 200 72
+remote_connection.py       440 DEBUG    Finished Request
+remote_connection.py       388 DEBUG    GET http://127.0.0.1:54281/session/8bbb2a6f39263920b1557262f8b1efe7/screenshot {"sessionId": "8bbb2a6f39263920b1557262f8b1efe7"}
+connectionpool.py          393 DEBUG    http://127.0.0.1:54281 "GET /session/8bbb2a6f39263920b1557262f8b1efe7/screenshot HTTP/1.1" 200 227370
+remote_connection.py       440 DEBUG    Finished Request
+remote_connection.py       388 DEBUG    GET http://127.0.0.1:54281/session/8bbb2a6f39263920b1557262f8b1efe7/screenshot {"sessionId": "8bbb2a6f39263920b1557262f8b1efe7"}
+connectionpool.py          393 DEBUG    http://127.0.0.1:54281 "GET /session/8bbb2a6f39263920b1557262f8b1efe7/screenshot HTTP/1.1" 200 227330
+remote_connection.py       440 DEBUG    Finished Request
+remote_connection.py       388 DEBUG    POST http://127.0.0.1:54281/session/8bbb2a6f39263920b1557262f8b1efe7/element {"using": "xpath", "value": "//input[@name=\"password\"] ", "sessionId": "8bbb2a6f39263920b1557262f8b1efe7"}
+connectionpool.py          393 DEBUG    http://127.0.0.1:54281 "POST /session/8bbb2a6f39263920b1557262f8b1efe7/element HTTP/1.1" 200 102
+remote_connection.py       440 DEBUG    Finished Request
+remote_connection.py       388 DEBUG    POST http://127.0.0.1:54281/session/8bbb2a6f39263920b1557262f8b1efe7/element/0.4554306838687825-2/clear {"id": "0.4554306838687825-2", "sessionId": "8bbb2a6f39263920b1557262f8b1efe7"}
+connectionpool.py          393 DEBUG    http://127.0.0.1:54281 "POST /session/8bbb2a6f39263920b1557262f8b1efe7/element/0.4554306838687825-2/clear HTTP/1.1" 200 72
+remote_connection.py       440 DEBUG    Finished Request
+remote_connection.py       388 DEBUG    POST http://127.0.0.1:54281/session/8bbb2a6f39263920b1557262f8b1efe7/element/0.4554306838687825-2/value {"text": "111111", "value": ["1", "1", "1", "1", "1", "1"], "id": "0.4554306838687825-2", "sessionId": "8bbb2a6f39263920b1557262f8b1efe7"}
+connectionpool.py          393 DEBUG    http://127.0.0.1:54281 "POST /session/8bbb2a6f39263920b1557262f8b1efe7/element/0.4554306838687825-2/value HTTP/1.1" 200 72
+remote_connection.py       440 DEBUG    Finished Request
+remote_connection.py       388 DEBUG    GET http://127.0.0.1:54281/session/8bbb2a6f39263920b1557262f8b1efe7/screenshot {"sessionId": "8bbb2a6f39263920b1557262f8b1efe7"}
+connectionpool.py          393 DEBUG    http://127.0.0.1:54281 "GET /session/8bbb2a6f39263920b1557262f8b1efe7/screenshot HTTP/1.1" 200 225470
+remote_connection.py       440 DEBUG    Finished Request
+remote_connection.py       388 DEBUG    GET http://127.0.0.1:54281/session/8bbb2a6f39263920b1557262f8b1efe7/screenshot {"sessionId": "8bbb2a6f39263920b1557262f8b1efe7"}
+connectionpool.py          393 DEBUG    http://127.0.0.1:54281 "GET /session/8bbb2a6f39263920b1557262f8b1efe7/screenshot HTTP/1.1" 200 225470
+remote_connection.py       440 DEBUG    Finished Request
+remote_connection.py       388 DEBUG    POST http://127.0.0.1:54281/session/8bbb2a6f39263920b1557262f8b1efe7/element {"using": "xpath", "value": "//span[contains(text(),'\u767b\u5f55')]", "sessionId": "8bbb2a6f39263920b1557262f8b1efe7"}
+connectionpool.py          393 DEBUG    http://127.0.0.1:54281 "POST /session/8bbb2a6f39263920b1557262f8b1efe7/element HTTP/1.1" 200 102
+remote_connection.py       440 DEBUG    Finished Request
+remote_connection.py       388 DEBUG    POST http://127.0.0.1:54281/session/8bbb2a6f39263920b1557262f8b1efe7/moveto {"element": "0.4554306838687825-3", "sessionId": "8bbb2a6f39263920b1557262f8b1efe7"}
+connectionpool.py          393 DEBUG    http://127.0.0.1:54281 "POST /session/8bbb2a6f39263920b1557262f8b1efe7/moveto HTTP/1.1" 200 72
+remote_connection.py       440 DEBUG    Finished Request
+remote_connection.py       388 DEBUG    POST http://127.0.0.1:54281/session/8bbb2a6f39263920b1557262f8b1efe7/click {"button": 0, "sessionId": "8bbb2a6f39263920b1557262f8b1efe7"}
+connectionpool.py          393 DEBUG    http://127.0.0.1:54281 "POST /session/8bbb2a6f39263920b1557262f8b1efe7/click HTTP/1.1" 200 72
+remote_connection.py       440 DEBUG    Finished Request
+remote_connection.py       388 DEBUG    GET http://127.0.0.1:54281/session/8bbb2a6f39263920b1557262f8b1efe7/screenshot {"sessionId": "8bbb2a6f39263920b1557262f8b1efe7"}
+connectionpool.py          393 DEBUG    http://127.0.0.1:54281 "GET /session/8bbb2a6f39263920b1557262f8b1efe7/screenshot HTTP/1.1" 200 226066
+remote_connection.py       440 DEBUG    Finished Request
+remote_connection.py       388 DEBUG    GET http://127.0.0.1:54281/session/8bbb2a6f39263920b1557262f8b1efe7/screenshot {"sessionId": "8bbb2a6f39263920b1557262f8b1efe7"}
+connectionpool.py          393 DEBUG    http://127.0.0.1:54281 "GET /session/8bbb2a6f39263920b1557262f8b1efe7/screenshot HTTP/1.1" 200 74822
+remote_connection.py       440 DEBUG    Finished Request
+remote_connection.py       388 DEBUG    POST http://127.0.0.1:54281/session/8bbb2a6f39263920b1557262f8b1efe7/element {"using": "xpath", "value": "//span[contains(text(),'\u8fd0\u8f93\u76f8\u5173\u914d\u7f6e')]", "sessionId": "8bbb2a6f39263920b1557262f8b1efe7"}
+connectionpool.py          393 DEBUG    http://127.0.0.1:54281 "POST /session/8bbb2a6f39263920b1557262f8b1efe7/element HTTP/1.1" 200 102
+remote_connection.py       440 DEBUG    Finished Request
+remote_connection.py       388 DEBUG    POST http://127.0.0.1:54281/session/8bbb2a6f39263920b1557262f8b1efe7/moveto {"element": "0.4554306838687825-4", "sessionId": "8bbb2a6f39263920b1557262f8b1efe7"}
+connectionpool.py          393 DEBUG    http://127.0.0.1:54281 "POST /session/8bbb2a6f39263920b1557262f8b1efe7/moveto HTTP/1.1" 200 72
+remote_connection.py       440 DEBUG    Finished Request
+remote_connection.py       388 DEBUG    POST http://127.0.0.1:54281/session/8bbb2a6f39263920b1557262f8b1efe7/click {"button": 0, "sessionId": "8bbb2a6f39263920b1557262f8b1efe7"}
+connectionpool.py          393 DEBUG    http://127.0.0.1:54281 "POST /session/8bbb2a6f39263920b1557262f8b1efe7/click HTTP/1.1" 200 72
+remote_connection.py       440 DEBUG    Finished Request
+remote_connection.py       388 DEBUG    GET http://127.0.0.1:54281/session/8bbb2a6f39263920b1557262f8b1efe7/screenshot {"sessionId": "8bbb2a6f39263920b1557262f8b1efe7"}
+connectionpool.py          393 DEBUG    http://127.0.0.1:54281 "GET /session/8bbb2a6f39263920b1557262f8b1efe7/screenshot HTTP/1.1" 200 78122
+remote_connection.py       440 DEBUG    Finished Request
+remote_connection.py       388 DEBUG    GET http://127.0.0.1:54281/session/8bbb2a6f39263920b1557262f8b1efe7/screenshot {"sessionId": "8bbb2a6f39263920b1557262f8b1efe7"}
+connectionpool.py          393 DEBUG    http://127.0.0.1:54281 "GET /session/8bbb2a6f39263920b1557262f8b1efe7/screenshot HTTP/1.1" 200 86602
+remote_connection.py       440 DEBUG    Finished Request
+remote_connection.py       388 DEBUG    POST http://127.0.0.1:54281/session/8bbb2a6f39263920b1557262f8b1efe7/element {"using": "xpath", "value": "//span[contains(text(),'\u8fd0\u8f93\u7c7b\u578b')]", "sessionId": "8bbb2a6f39263920b1557262f8b1efe7"}
+connectionpool.py          393 DEBUG    http://127.0.0.1:54281 "POST /session/8bbb2a6f39263920b1557262f8b1efe7/element HTTP/1.1" 200 102
+remote_connection.py       440 DEBUG    Finished Request
+remote_connection.py       388 DEBUG    POST http://127.0.0.1:54281/session/8bbb2a6f39263920b1557262f8b1efe7/moveto {"element": "0.4554306838687825-5", "sessionId": "8bbb2a6f39263920b1557262f8b1efe7"}
+connectionpool.py          393 DEBUG    http://127.0.0.1:54281 "POST /session/8bbb2a6f39263920b1557262f8b1efe7/moveto HTTP/1.1" 200 72
+remote_connection.py       440 DEBUG    Finished Request
+remote_connection.py       388 DEBUG    POST http://127.0.0.1:54281/session/8bbb2a6f39263920b1557262f8b1efe7/click {"button": 0, "sessionId": "8bbb2a6f39263920b1557262f8b1efe7"}
+connectionpool.py          393 DEBUG    http://127.0.0.1:54281 "POST /session/8bbb2a6f39263920b1557262f8b1efe7/click HTTP/1.1" 200 72
+remote_connection.py       440 DEBUG    Finished Request
+remote_connection.py       388 DEBUG    GET http://127.0.0.1:54281/session/8bbb2a6f39263920b1557262f8b1efe7/screenshot {"sessionId": "8bbb2a6f39263920b1557262f8b1efe7"}
+connectionpool.py          393 DEBUG    http://127.0.0.1:54281 "GET /session/8bbb2a6f39263920b1557262f8b1efe7/screenshot HTTP/1.1" 200 60330
+remote_connection.py       440 DEBUG    Finished Request
+remote_connection.py       388 DEBUG    GET http://127.0.0.1:54281/session/8bbb2a6f39263920b1557262f8b1efe7/screenshot {"sessionId": "8bbb2a6f39263920b1557262f8b1efe7"}
+connectionpool.py          393 DEBUG    http://127.0.0.1:54281 "GET /session/8bbb2a6f39263920b1557262f8b1efe7/screenshot HTTP/1.1" 200 37034
+remote_connection.py       440 DEBUG    Finished Request
+remote_connection.py       388 DEBUG    POST http://127.0.0.1:54281/session/8bbb2a6f39263920b1557262f8b1efe7/element {"using": "xpath", "value": "(//input[@class=\"el-input__inner\"])[3]", "sessionId": "8bbb2a6f39263920b1557262f8b1efe7"}
+connectionpool.py          393 DEBUG    http://127.0.0.1:54281 "POST /session/8bbb2a6f39263920b1557262f8b1efe7/element HTTP/1.1" 200 102
+remote_connection.py       440 DEBUG    Finished Request
+remote_connection.py       388 DEBUG    POST http://127.0.0.1:54281/session/8bbb2a6f39263920b1557262f8b1efe7/element/0.4554306838687825-6/clear {"id": "0.4554306838687825-6", "sessionId": "8bbb2a6f39263920b1557262f8b1efe7"}
+connectionpool.py          393 DEBUG    http://127.0.0.1:54281 "POST /session/8bbb2a6f39263920b1557262f8b1efe7/element/0.4554306838687825-6/clear HTTP/1.1" 200 72
+remote_connection.py       440 DEBUG    Finished Request
+remote_connection.py       388 DEBUG    POST http://127.0.0.1:54281/session/8bbb2a6f39263920b1557262f8b1efe7/element/0.4554306838687825-6/value {"text": "X222", "value": ["X", "2", "2", "2"], "id": "0.4554306838687825-6", "sessionId": "8bbb2a6f39263920b1557262f8b1efe7"}
+connectionpool.py          393 DEBUG    http://127.0.0.1:54281 "POST /session/8bbb2a6f39263920b1557262f8b1efe7/element/0.4554306838687825-6/value HTTP/1.1" 200 72
+remote_connection.py       440 DEBUG    Finished Request
+remote_connection.py       388 DEBUG    GET http://127.0.0.1:54281/session/8bbb2a6f39263920b1557262f8b1efe7/screenshot {"sessionId": "8bbb2a6f39263920b1557262f8b1efe7"}
+connectionpool.py          393 DEBUG    http://127.0.0.1:54281 "GET /session/8bbb2a6f39263920b1557262f8b1efe7/screenshot HTTP/1.1" 200 77730
+remote_connection.py       440 DEBUG    Finished Request
+remote_connection.py       388 DEBUG    GET http://127.0.0.1:54281/session/8bbb2a6f39263920b1557262f8b1efe7/screenshot {"sessionId": "8bbb2a6f39263920b1557262f8b1efe7"}
+connectionpool.py          393 DEBUG    http://127.0.0.1:54281 "GET /session/8bbb2a6f39263920b1557262f8b1efe7/screenshot HTTP/1.1" 200 73626
+remote_connection.py       440 DEBUG    Finished Request
+remote_connection.py       388 DEBUG    POST http://127.0.0.1:54281/session/8bbb2a6f39263920b1557262f8b1efe7/element {"using": "xpath", "value": "(//input[@class=\"el-input__inner\"])[4]", "sessionId": "8bbb2a6f39263920b1557262f8b1efe7"}
+connectionpool.py          393 DEBUG    http://127.0.0.1:54281 "POST /session/8bbb2a6f39263920b1557262f8b1efe7/element HTTP/1.1" 200 102
+remote_connection.py       440 DEBUG    Finished Request
+remote_connection.py       388 DEBUG    POST http://127.0.0.1:54281/session/8bbb2a6f39263920b1557262f8b1efe7/element/0.4554306838687825-7/clear {"id": "0.4554306838687825-7", "sessionId": "8bbb2a6f39263920b1557262f8b1efe7"}
+connectionpool.py          393 DEBUG    http://127.0.0.1:54281 "POST /session/8bbb2a6f39263920b1557262f8b1efe7/element/0.4554306838687825-7/clear HTTP/1.1" 200 72
+remote_connection.py       440 DEBUG    Finished Request
+remote_connection.py       388 DEBUG    POST http://127.0.0.1:54281/session/8bbb2a6f39263920b1557262f8b1efe7/element/0.4554306838687825-7/value {"text": "\u8fd0\u8f93", "value": ["\u8fd0", "\u8f93"], "id": "0.4554306838687825-7", "sessionId": "8bbb2a6f39263920b1557262f8b1efe7"}
+connectionpool.py          393 DEBUG    http://127.0.0.1:54281 "POST /session/8bbb2a6f39263920b1557262f8b1efe7/element/0.4554306838687825-7/value HTTP/1.1" 200 72
+remote_connection.py       440 DEBUG    Finished Request
+remote_connection.py       388 DEBUG    GET http://127.0.0.1:54281/session/8bbb2a6f39263920b1557262f8b1efe7/screenshot {"sessionId": "8bbb2a6f39263920b1557262f8b1efe7"}
+connectionpool.py          393 DEBUG    http://127.0.0.1:54281 "GET /session/8bbb2a6f39263920b1557262f8b1efe7/screenshot HTTP/1.1" 200 72658
+remote_connection.py       440 DEBUG    Finished Request
+remote_connection.py       388 DEBUG    GET http://127.0.0.1:54281/session/8bbb2a6f39263920b1557262f8b1efe7/screenshot {"sessionId": "8bbb2a6f39263920b1557262f8b1efe7"}
+connectionpool.py          393 DEBUG    http://127.0.0.1:54281 "GET /session/8bbb2a6f39263920b1557262f8b1efe7/screenshot HTTP/1.1" 200 72638
+remote_connection.py       440 DEBUG    Finished Request
+remote_connection.py       388 DEBUG    POST http://127.0.0.1:54281/session/8bbb2a6f39263920b1557262f8b1efe7/element {"using": "xpath", "value": "//span[contains(text(),'\u67e5\u8be2')]", "sessionId": "8bbb2a6f39263920b1557262f8b1efe7"}
+connectionpool.py          393 DEBUG    http://127.0.0.1:54281 "POST /session/8bbb2a6f39263920b1557262f8b1efe7/element HTTP/1.1" 200 102
+remote_connection.py       440 DEBUG    Finished Request
+remote_connection.py       388 DEBUG    POST http://127.0.0.1:54281/session/8bbb2a6f39263920b1557262f8b1efe7/moveto {"element": "0.4554306838687825-8", "sessionId": "8bbb2a6f39263920b1557262f8b1efe7"}
+connectionpool.py          393 DEBUG    http://127.0.0.1:54281 "POST /session/8bbb2a6f39263920b1557262f8b1efe7/moveto HTTP/1.1" 200 72
+remote_connection.py       440 DEBUG    Finished Request
+remote_connection.py       388 DEBUG    POST http://127.0.0.1:54281/session/8bbb2a6f39263920b1557262f8b1efe7/click {"button": 0, "sessionId": "8bbb2a6f39263920b1557262f8b1efe7"}
+connectionpool.py          393 DEBUG    http://127.0.0.1:54281 "POST /session/8bbb2a6f39263920b1557262f8b1efe7/click HTTP/1.1" 200 72
+remote_connection.py       440 DEBUG    Finished Request
+remote_connection.py       388 DEBUG    GET http://127.0.0.1:54281/session/8bbb2a6f39263920b1557262f8b1efe7/screenshot {"sessionId": "8bbb2a6f39263920b1557262f8b1efe7"}
+connectionpool.py          393 DEBUG    http://127.0.0.1:54281 "GET /session/8bbb2a6f39263920b1557262f8b1efe7/screenshot HTTP/1.1" 200 44770
+remote_connection.py       440 DEBUG    Finished Request
+remote_connection.py       388 DEBUG    GET http://127.0.0.1:54281/session/8bbb2a6f39263920b1557262f8b1efe7/screenshot {"sessionId": "8bbb2a6f39263920b1557262f8b1efe7"}
+connectionpool.py          393 DEBUG    http://127.0.0.1:54281 "GET /session/8bbb2a6f39263920b1557262f8b1efe7/screenshot HTTP/1.1" 200 44762
+remote_connection.py       440 DEBUG    Finished Request
+remote_connection.py       388 DEBUG    POST http://127.0.0.1:54281/session/8bbb2a6f39263920b1557262f8b1efe7/element {"using": "xpath", "value": "//span[contains(text(),'\u6e05\u7a7a\u67e5\u8be2')]", "sessionId": "8bbb2a6f39263920b1557262f8b1efe7"}
+connectionpool.py          393 DEBUG    http://127.0.0.1:54281 "POST /session/8bbb2a6f39263920b1557262f8b1efe7/element HTTP/1.1" 200 102
+remote_connection.py       440 DEBUG    Finished Request
+remote_connection.py       388 DEBUG    POST http://127.0.0.1:54281/session/8bbb2a6f39263920b1557262f8b1efe7/moveto {"element": "0.4554306838687825-9", "sessionId": "8bbb2a6f39263920b1557262f8b1efe7"}
+connectionpool.py          393 DEBUG    http://127.0.0.1:54281 "POST /session/8bbb2a6f39263920b1557262f8b1efe7/moveto HTTP/1.1" 200 72
+remote_connection.py       440 DEBUG    Finished Request
+remote_connection.py       388 DEBUG    POST http://127.0.0.1:54281/session/8bbb2a6f39263920b1557262f8b1efe7/click {"button": 0, "sessionId": "8bbb2a6f39263920b1557262f8b1efe7"}
+connectionpool.py          393 DEBUG    http://127.0.0.1:54281 "POST /session/8bbb2a6f39263920b1557262f8b1efe7/click HTTP/1.1" 200 72
+remote_connection.py       440 DEBUG    Finished Request
+remote_connection.py       388 DEBUG    GET http://127.0.0.1:54281/session/8bbb2a6f39263920b1557262f8b1efe7/screenshot {"sessionId": "8bbb2a6f39263920b1557262f8b1efe7"}
+connectionpool.py          393 DEBUG    http://127.0.0.1:54281 "GET /session/8bbb2a6f39263920b1557262f8b1efe7/screenshot HTTP/1.1" 200 47618
+remote_connection.py       440 DEBUG    Finished Request
+remote_connection.py       388 DEBUG    GET http://127.0.0.1:54281/session/8bbb2a6f39263920b1557262f8b1efe7/screenshot {"sessionId": "8bbb2a6f39263920b1557262f8b1efe7"}
+connectionpool.py          393 DEBUG    http://127.0.0.1:54281 "GET /session/8bbb2a6f39263920b1557262f8b1efe7/screenshot HTTP/1.1" 200 47626
+remote_connection.py       440 DEBUG    Finished Request
+remote_connection.py       388 DEBUG    POST http://127.0.0.1:54281/session/8bbb2a6f39263920b1557262f8b1efe7/element {"using": "xpath", "value": "//span[contains(text(),'\u67e5\u8be2')]", "sessionId": "8bbb2a6f39263920b1557262f8b1efe7"}
+connectionpool.py          393 DEBUG    http://127.0.0.1:54281 "POST /session/8bbb2a6f39263920b1557262f8b1efe7/element HTTP/1.1" 200 102
+remote_connection.py       440 DEBUG    Finished Request
+remote_connection.py       388 DEBUG    POST http://127.0.0.1:54281/session/8bbb2a6f39263920b1557262f8b1efe7/moveto {"element": "0.4554306838687825-8", "sessionId": "8bbb2a6f39263920b1557262f8b1efe7"}
+connectionpool.py          393 DEBUG    http://127.0.0.1:54281 "POST /session/8bbb2a6f39263920b1557262f8b1efe7/moveto HTTP/1.1" 200 72
+remote_connection.py       440 DEBUG    Finished Request
+remote_connection.py       388 DEBUG    POST http://127.0.0.1:54281/session/8bbb2a6f39263920b1557262f8b1efe7/click {"button": 0, "sessionId": "8bbb2a6f39263920b1557262f8b1efe7"}
+connectionpool.py          393 DEBUG    http://127.0.0.1:54281 "POST /session/8bbb2a6f39263920b1557262f8b1efe7/click HTTP/1.1" 200 72
+remote_connection.py       440 DEBUG    Finished Request
+remote_connection.py       388 DEBUG    GET http://127.0.0.1:54281/session/8bbb2a6f39263920b1557262f8b1efe7/screenshot {"sessionId": "8bbb2a6f39263920b1557262f8b1efe7"}
+connectionpool.py          393 DEBUG    http://127.0.0.1:54281 "GET /session/8bbb2a6f39263920b1557262f8b1efe7/screenshot HTTP/1.1" 200 74714
+remote_connection.py       440 DEBUG    Finished Request
+remote_connection.py       388 DEBUG    GET http://127.0.0.1:54281/session/8bbb2a6f39263920b1557262f8b1efe7/screenshot {"sessionId": "8bbb2a6f39263920b1557262f8b1efe7"}
+connectionpool.py          393 DEBUG    http://127.0.0.1:54281 "GET /session/8bbb2a6f39263920b1557262f8b1efe7/screenshot HTTP/1.1" 200 74742
+remote_connection.py       440 DEBUG    Finished Request
+remote_connection.py       388 DEBUG    POST http://127.0.0.1:54281/session/8bbb2a6f39263920b1557262f8b1efe7/element {"using": "xpath", "value": "//span[contains(text(),'\u65b0\u589e')]", "sessionId": "8bbb2a6f39263920b1557262f8b1efe7"}
+connectionpool.py          393 DEBUG    http://127.0.0.1:54281 "POST /session/8bbb2a6f39263920b1557262f8b1efe7/element HTTP/1.1" 200 103
+remote_connection.py       440 DEBUG    Finished Request
+remote_connection.py       388 DEBUG    POST http://127.0.0.1:54281/session/8bbb2a6f39263920b1557262f8b1efe7/moveto {"element": "0.4554306838687825-10", "sessionId": "8bbb2a6f39263920b1557262f8b1efe7"}
+connectionpool.py          393 DEBUG    http://127.0.0.1:54281 "POST /session/8bbb2a6f39263920b1557262f8b1efe7/moveto HTTP/1.1" 200 72
+remote_connection.py       440 DEBUG    Finished Request
+remote_connection.py       388 DEBUG    POST http://127.0.0.1:54281/session/8bbb2a6f39263920b1557262f8b1efe7/click {"button": 0, "sessionId": "8bbb2a6f39263920b1557262f8b1efe7"}
+connectionpool.py          393 DEBUG    http://127.0.0.1:54281 "POST /session/8bbb2a6f39263920b1557262f8b1efe7/click HTTP/1.1" 200 72
+remote_connection.py       440 DEBUG    Finished Request
+remote_connection.py       388 DEBUG    GET http://127.0.0.1:54281/session/8bbb2a6f39263920b1557262f8b1efe7/screenshot {"sessionId": "8bbb2a6f39263920b1557262f8b1efe7"}
+connectionpool.py          393 DEBUG    http://127.0.0.1:54281 "GET /session/8bbb2a6f39263920b1557262f8b1efe7/screenshot HTTP/1.1" 200 73162
+remote_connection.py       440 DEBUG    Finished Request
+remote_connection.py       388 DEBUG    GET http://127.0.0.1:54281/session/8bbb2a6f39263920b1557262f8b1efe7/screenshot {"sessionId": "8bbb2a6f39263920b1557262f8b1efe7"}
+connectionpool.py          393 DEBUG    http://127.0.0.1:54281 "GET /session/8bbb2a6f39263920b1557262f8b1efe7/screenshot HTTP/1.1" 200 73186
+remote_connection.py       440 DEBUG    Finished Request
+remote_connection.py       388 DEBUG    POST http://127.0.0.1:54281/session/8bbb2a6f39263920b1557262f8b1efe7/element {"using": "xpath", "value": "//div[@aria-label='\u65b0\u589e']//label[contains(text(),'\u4ee3\u7801')]/following-sibling::div//input", "sessionId": "8bbb2a6f39263920b1557262f8b1efe7"}
+connectionpool.py          393 DEBUG    http://127.0.0.1:54281 "POST /session/8bbb2a6f39263920b1557262f8b1efe7/element HTTP/1.1" 200 103
+remote_connection.py       440 DEBUG    Finished Request
+remote_connection.py       388 DEBUG    POST http://127.0.0.1:54281/session/8bbb2a6f39263920b1557262f8b1efe7/element/0.4554306838687825-11/clear {"id": "0.4554306838687825-11", "sessionId": "8bbb2a6f39263920b1557262f8b1efe7"}
+connectionpool.py          393 DEBUG    http://127.0.0.1:54281 "POST /session/8bbb2a6f39263920b1557262f8b1efe7/element/0.4554306838687825-11/clear HTTP/1.1" 200 72
+remote_connection.py       440 DEBUG    Finished Request
+remote_connection.py       388 DEBUG    POST http://127.0.0.1:54281/session/8bbb2a6f39263920b1557262f8b1efe7/element/0.4554306838687825-11/value {"text": "X802", "value": ["X", "8", "0", "2"], "id": "0.4554306838687825-11", "sessionId": "8bbb2a6f39263920b1557262f8b1efe7"}
+connectionpool.py          393 DEBUG    http://127.0.0.1:54281 "POST /session/8bbb2a6f39263920b1557262f8b1efe7/element/0.4554306838687825-11/value HTTP/1.1" 200 72
+remote_connection.py       440 DEBUG    Finished Request
+remote_connection.py       388 DEBUG    GET http://127.0.0.1:54281/session/8bbb2a6f39263920b1557262f8b1efe7/screenshot {"sessionId": "8bbb2a6f39263920b1557262f8b1efe7"}
+connectionpool.py          393 DEBUG    http://127.0.0.1:54281 "GET /session/8bbb2a6f39263920b1557262f8b1efe7/screenshot HTTP/1.1" 200 71458
+remote_connection.py       440 DEBUG    Finished Request
+remote_connection.py       388 DEBUG    GET http://127.0.0.1:54281/session/8bbb2a6f39263920b1557262f8b1efe7/screenshot {"sessionId": "8bbb2a6f39263920b1557262f8b1efe7"}
+connectionpool.py          393 DEBUG    http://127.0.0.1:54281 "GET /session/8bbb2a6f39263920b1557262f8b1efe7/screenshot HTTP/1.1" 200 71502
+remote_connection.py       440 DEBUG    Finished Request
+remote_connection.py       388 DEBUG    POST http://127.0.0.1:54281/session/8bbb2a6f39263920b1557262f8b1efe7/element {"using": "xpath", "value": "//div[@aria-label='\u65b0\u589e']//label[contains(text(),'\u540d\u79f0')]/following-sibling::div//input", "sessionId": "8bbb2a6f39263920b1557262f8b1efe7"}
+connectionpool.py          393 DEBUG    http://127.0.0.1:54281 "POST /session/8bbb2a6f39263920b1557262f8b1efe7/element HTTP/1.1" 200 103
+remote_connection.py       440 DEBUG    Finished Request
+remote_connection.py       388 DEBUG    POST http://127.0.0.1:54281/session/8bbb2a6f39263920b1557262f8b1efe7/element/0.4554306838687825-12/clear {"id": "0.4554306838687825-12", "sessionId": "8bbb2a6f39263920b1557262f8b1efe7"}
+connectionpool.py          393 DEBUG    http://127.0.0.1:54281 "POST /session/8bbb2a6f39263920b1557262f8b1efe7/element/0.4554306838687825-12/clear HTTP/1.1" 200 72
+remote_connection.py       440 DEBUG    Finished Request
+remote_connection.py       388 DEBUG    POST http://127.0.0.1:54281/session/8bbb2a6f39263920b1557262f8b1efe7/element/0.4554306838687825-12/value {"text": "\u9762\u5305\u8f66\u8fd0\u8f93123", "value": ["\u9762", "\u5305", "\u8f66", "\u8fd0", "\u8f93", "1", "2", "3"], "id": "0.4554306838687825-12", "sessionId": "8bbb2a6f39263920b1557262f8b1efe7"}
+connectionpool.py          393 DEBUG    http://127.0.0.1:54281 "POST /session/8bbb2a6f39263920b1557262f8b1efe7/element/0.4554306838687825-12/value HTTP/1.1" 200 72
+remote_connection.py       440 DEBUG    Finished Request
+remote_connection.py       388 DEBUG    GET http://127.0.0.1:54281/session/8bbb2a6f39263920b1557262f8b1efe7/screenshot {"sessionId": "8bbb2a6f39263920b1557262f8b1efe7"}
+connectionpool.py          393 DEBUG    http://127.0.0.1:54281 "GET /session/8bbb2a6f39263920b1557262f8b1efe7/screenshot HTTP/1.1" 200 71586
+remote_connection.py       440 DEBUG    Finished Request
+remote_connection.py       388 DEBUG    GET http://127.0.0.1:54281/session/8bbb2a6f39263920b1557262f8b1efe7/screenshot {"sessionId": "8bbb2a6f39263920b1557262f8b1efe7"}
+connectionpool.py          393 DEBUG    http://127.0.0.1:54281 "GET /session/8bbb2a6f39263920b1557262f8b1efe7/screenshot HTTP/1.1" 200 71546
+remote_connection.py       440 DEBUG    Finished Request
+remote_connection.py       388 DEBUG    POST http://127.0.0.1:54281/session/8bbb2a6f39263920b1557262f8b1efe7/element {"using": "xpath", "value": "//div[@aria-label='\u65b0\u589e']//label[contains(text(),'\u5931\u6548\u65e5\u671f')]/following-sibling::div//input", "sessionId": "8bbb2a6f39263920b1557262f8b1efe7"}
+connectionpool.py          393 DEBUG    http://127.0.0.1:54281 "POST /session/8bbb2a6f39263920b1557262f8b1efe7/element HTTP/1.1" 200 103
+remote_connection.py       440 DEBUG    Finished Request
+remote_connection.py       388 DEBUG    POST http://127.0.0.1:54281/session/8bbb2a6f39263920b1557262f8b1efe7/moveto {"element": "0.4554306838687825-13", "sessionId": "8bbb2a6f39263920b1557262f8b1efe7"}
+connectionpool.py          393 DEBUG    http://127.0.0.1:54281 "POST /session/8bbb2a6f39263920b1557262f8b1efe7/moveto HTTP/1.1" 200 72
+remote_connection.py       440 DEBUG    Finished Request
+remote_connection.py       388 DEBUG    POST http://127.0.0.1:54281/session/8bbb2a6f39263920b1557262f8b1efe7/click {"button": 0, "sessionId": "8bbb2a6f39263920b1557262f8b1efe7"}
+connectionpool.py          393 DEBUG    http://127.0.0.1:54281 "POST /session/8bbb2a6f39263920b1557262f8b1efe7/click HTTP/1.1" 200 72
+remote_connection.py       440 DEBUG    Finished Request
+remote_connection.py       388 DEBUG    GET http://127.0.0.1:54281/session/8bbb2a6f39263920b1557262f8b1efe7/screenshot {"sessionId": "8bbb2a6f39263920b1557262f8b1efe7"}
+connectionpool.py          393 DEBUG    http://127.0.0.1:54281 "GET /session/8bbb2a6f39263920b1557262f8b1efe7/screenshot HTTP/1.1" 200 84766
+remote_connection.py       440 DEBUG    Finished Request
+remote_connection.py       388 DEBUG    GET http://127.0.0.1:54281/session/8bbb2a6f39263920b1557262f8b1efe7/screenshot {"sessionId": "8bbb2a6f39263920b1557262f8b1efe7"}
+connectionpool.py          393 DEBUG    http://127.0.0.1:54281 "GET /session/8bbb2a6f39263920b1557262f8b1efe7/screenshot HTTP/1.1" 200 78898
+remote_connection.py       440 DEBUG    Finished Request
+remote_connection.py       388 DEBUG    POST http://127.0.0.1:54281/session/8bbb2a6f39263920b1557262f8b1efe7/element {"using": "xpath", "value": "//th[text()='\u65e5']/parent::*/following-sibling::tr//td[@class='available']//span[contains(text(),'11')]", "sessionId": "8bbb2a6f39263920b1557262f8b1efe7"}
+connectionpool.py          393 DEBUG    http://127.0.0.1:54281 "POST /session/8bbb2a6f39263920b1557262f8b1efe7/element HTTP/1.1" 200 103
+remote_connection.py       440 DEBUG    Finished Request
+remote_connection.py       388 DEBUG    POST http://127.0.0.1:54281/session/8bbb2a6f39263920b1557262f8b1efe7/moveto {"element": "0.4554306838687825-14", "sessionId": "8bbb2a6f39263920b1557262f8b1efe7"}
+connectionpool.py          393 DEBUG    http://127.0.0.1:54281 "POST /session/8bbb2a6f39263920b1557262f8b1efe7/moveto HTTP/1.1" 200 72
+remote_connection.py       440 DEBUG    Finished Request
+remote_connection.py       388 DEBUG    POST http://127.0.0.1:54281/session/8bbb2a6f39263920b1557262f8b1efe7/click {"button": 0, "sessionId": "8bbb2a6f39263920b1557262f8b1efe7"}
+connectionpool.py          393 DEBUG    http://127.0.0.1:54281 "POST /session/8bbb2a6f39263920b1557262f8b1efe7/click HTTP/1.1" 200 72
+remote_connection.py       440 DEBUG    Finished Request
+remote_connection.py       388 DEBUG    GET http://127.0.0.1:54281/session/8bbb2a6f39263920b1557262f8b1efe7/screenshot {"sessionId": "8bbb2a6f39263920b1557262f8b1efe7"}
+connectionpool.py          393 DEBUG    http://127.0.0.1:54281 "GET /session/8bbb2a6f39263920b1557262f8b1efe7/screenshot HTTP/1.1" 200 70806
+remote_connection.py       440 DEBUG    Finished Request
+remote_connection.py       388 DEBUG    GET http://127.0.0.1:54281/session/8bbb2a6f39263920b1557262f8b1efe7/screenshot {"sessionId": "8bbb2a6f39263920b1557262f8b1efe7"}
+connectionpool.py          393 DEBUG    http://127.0.0.1:54281 "GET /session/8bbb2a6f39263920b1557262f8b1efe7/screenshot HTTP/1.1" 200 70806
+remote_connection.py       440 DEBUG    Finished Request
+remote_connection.py       388 DEBUG    POST http://127.0.0.1:54281/session/8bbb2a6f39263920b1557262f8b1efe7/element {"using": "xpath", "value": "//span[contains(text(),'\u786e \u5b9a')]", "sessionId": "8bbb2a6f39263920b1557262f8b1efe7"}
+connectionpool.py          393 DEBUG    http://127.0.0.1:54281 "POST /session/8bbb2a6f39263920b1557262f8b1efe7/element HTTP/1.1" 200 103
+remote_connection.py       440 DEBUG    Finished Request
+remote_connection.py       388 DEBUG    POST http://127.0.0.1:54281/session/8bbb2a6f39263920b1557262f8b1efe7/moveto {"element": "0.4554306838687825-15", "sessionId": "8bbb2a6f39263920b1557262f8b1efe7"}
+connectionpool.py          393 DEBUG    http://127.0.0.1:54281 "POST /session/8bbb2a6f39263920b1557262f8b1efe7/moveto HTTP/1.1" 200 72
+remote_connection.py       440 DEBUG    Finished Request
+remote_connection.py       388 DEBUG    POST http://127.0.0.1:54281/session/8bbb2a6f39263920b1557262f8b1efe7/click {"button": 0, "sessionId": "8bbb2a6f39263920b1557262f8b1efe7"}
+connectionpool.py          393 DEBUG    http://127.0.0.1:54281 "POST /session/8bbb2a6f39263920b1557262f8b1efe7/click HTTP/1.1" 200 72
+remote_connection.py       440 DEBUG    Finished Request
+remote_connection.py       388 DEBUG    GET http://127.0.0.1:54281/session/8bbb2a6f39263920b1557262f8b1efe7/screenshot {"sessionId": "8bbb2a6f39263920b1557262f8b1efe7"}
+connectionpool.py          393 DEBUG    http://127.0.0.1:54281 "GET /session/8bbb2a6f39263920b1557262f8b1efe7/screenshot HTTP/1.1" 200 97758
+remote_connection.py       440 DEBUG    Finished Request
+remote_connection.py       388 DEBUG    GET http://127.0.0.1:54281/session/8bbb2a6f39263920b1557262f8b1efe7/screenshot {"sessionId": "8bbb2a6f39263920b1557262f8b1efe7"}
+connectionpool.py          393 DEBUG    http://127.0.0.1:54281 "GET /session/8bbb2a6f39263920b1557262f8b1efe7/screenshot HTTP/1.1" 200 77346
+remote_connection.py       440 DEBUG    Finished Request
+remote_connection.py       388 DEBUG    POST http://127.0.0.1:54281/session/8bbb2a6f39263920b1557262f8b1efe7/element {"using": "xpath", "value": "(//span[contains(text(),'\u7f16\u8f91')])[4]", "sessionId": "8bbb2a6f39263920b1557262f8b1efe7"}
+connectionpool.py          393 DEBUG    http://127.0.0.1:54281 "POST /session/8bbb2a6f39263920b1557262f8b1efe7/element HTTP/1.1" 200 103
+remote_connection.py       440 DEBUG    Finished Request
+remote_connection.py       388 DEBUG    POST http://127.0.0.1:54281/session/8bbb2a6f39263920b1557262f8b1efe7/moveto {"element": "0.4554306838687825-16", "sessionId": "8bbb2a6f39263920b1557262f8b1efe7"}
+connectionpool.py          393 DEBUG    http://127.0.0.1:54281 "POST /session/8bbb2a6f39263920b1557262f8b1efe7/moveto HTTP/1.1" 200 72
+remote_connection.py       440 DEBUG    Finished Request
+remote_connection.py       388 DEBUG    POST http://127.0.0.1:54281/session/8bbb2a6f39263920b1557262f8b1efe7/click {"button": 0, "sessionId": "8bbb2a6f39263920b1557262f8b1efe7"}
+connectionpool.py          393 DEBUG    http://127.0.0.1:54281 "POST /session/8bbb2a6f39263920b1557262f8b1efe7/click HTTP/1.1" 200 72
+remote_connection.py       440 DEBUG    Finished Request
+remote_connection.py       388 DEBUG    GET http://127.0.0.1:54281/session/8bbb2a6f39263920b1557262f8b1efe7/screenshot {"sessionId": "8bbb2a6f39263920b1557262f8b1efe7"}
+connectionpool.py          393 DEBUG    http://127.0.0.1:54281 "GET /session/8bbb2a6f39263920b1557262f8b1efe7/screenshot HTTP/1.1" 200 86482
+remote_connection.py       440 DEBUG    Finished Request
+remote_connection.py       388 DEBUG    GET http://127.0.0.1:54281/session/8bbb2a6f39263920b1557262f8b1efe7/screenshot {"sessionId": "8bbb2a6f39263920b1557262f8b1efe7"}
+connectionpool.py          393 DEBUG    http://127.0.0.1:54281 "GET /session/8bbb2a6f39263920b1557262f8b1efe7/screenshot HTTP/1.1" 200 73098
+remote_connection.py       440 DEBUG    Finished Request
+remote_connection.py       388 DEBUG    POST http://127.0.0.1:54281/session/8bbb2a6f39263920b1557262f8b1efe7/element {"using": "xpath", "value": "//div[@aria-label='\u7f16\u8f91']//label[contains(text(),'\u4ee3\u7801')]/following-sibling::div//input", "sessionId": "8bbb2a6f39263920b1557262f8b1efe7"}
+connectionpool.py          393 DEBUG    http://127.0.0.1:54281 "POST /session/8bbb2a6f39263920b1557262f8b1efe7/element HTTP/1.1" 200 103
+remote_connection.py       440 DEBUG    Finished Request
+remote_connection.py       388 DEBUG    POST http://127.0.0.1:54281/session/8bbb2a6f39263920b1557262f8b1efe7/element/0.4554306838687825-11/clear {"id": "0.4554306838687825-11", "sessionId": "8bbb2a6f39263920b1557262f8b1efe7"}
+connectionpool.py          393 DEBUG    http://127.0.0.1:54281 "POST /session/8bbb2a6f39263920b1557262f8b1efe7/element/0.4554306838687825-11/clear HTTP/1.1" 200 72
+remote_connection.py       440 DEBUG    Finished Request
+remote_connection.py       388 DEBUG    POST http://127.0.0.1:54281/session/8bbb2a6f39263920b1557262f8b1efe7/element/0.4554306838687825-11/value {"text": "X664", "value": ["X", "6", "6", "4"], "id": "0.4554306838687825-11", "sessionId": "8bbb2a6f39263920b1557262f8b1efe7"}
+connectionpool.py          393 DEBUG    http://127.0.0.1:54281 "POST /session/8bbb2a6f39263920b1557262f8b1efe7/element/0.4554306838687825-11/value HTTP/1.1" 200 72
+remote_connection.py       440 DEBUG    Finished Request
+remote_connection.py       388 DEBUG    GET http://127.0.0.1:54281/session/8bbb2a6f39263920b1557262f8b1efe7/screenshot {"sessionId": "8bbb2a6f39263920b1557262f8b1efe7"}
+connectionpool.py          393 DEBUG    http://127.0.0.1:54281 "GET /session/8bbb2a6f39263920b1557262f8b1efe7/screenshot HTTP/1.1" 200 73266
+remote_connection.py       440 DEBUG    Finished Request
+remote_connection.py       388 DEBUG    GET http://127.0.0.1:54281/session/8bbb2a6f39263920b1557262f8b1efe7/screenshot {"sessionId": "8bbb2a6f39263920b1557262f8b1efe7"}
+connectionpool.py          393 DEBUG    http://127.0.0.1:54281 "GET /session/8bbb2a6f39263920b1557262f8b1efe7/screenshot HTTP/1.1" 200 73234
+remote_connection.py       440 DEBUG    Finished Request
+remote_connection.py       388 DEBUG    POST http://127.0.0.1:54281/session/8bbb2a6f39263920b1557262f8b1efe7/element {"using": "xpath", "value": "//div[@aria-label='\u7f16\u8f91']//label[contains(text(),'\u540d\u79f0')]/following-sibling::div//input", "sessionId": "8bbb2a6f39263920b1557262f8b1efe7"}
+connectionpool.py          393 DEBUG    http://127.0.0.1:54281 "POST /session/8bbb2a6f39263920b1557262f8b1efe7/element HTTP/1.1" 200 103
+remote_connection.py       440 DEBUG    Finished Request
+remote_connection.py       388 DEBUG    POST http://127.0.0.1:54281/session/8bbb2a6f39263920b1557262f8b1efe7/element/0.4554306838687825-12/clear {"id": "0.4554306838687825-12", "sessionId": "8bbb2a6f39263920b1557262f8b1efe7"}
+connectionpool.py          393 DEBUG    http://127.0.0.1:54281 "POST /session/8bbb2a6f39263920b1557262f8b1efe7/element/0.4554306838687825-12/clear HTTP/1.1" 200 72
+remote_connection.py       440 DEBUG    Finished Request
+remote_connection.py       388 DEBUG    POST http://127.0.0.1:54281/session/8bbb2a6f39263920b1557262f8b1efe7/element/0.4554306838687825-12/value {"text": "\u96c6\u88c5\u7bb1\u8fd0\u8f93903", "value": ["\u96c6", "\u88c5", "\u7bb1", "\u8fd0", "\u8f93", "9", "0", "3"], "id": "0.4554306838687825-12", "sessionId": "8bbb2a6f39263920b1557262f8b1efe7"}
+connectionpool.py          393 DEBUG    http://127.0.0.1:54281 "POST /session/8bbb2a6f39263920b1557262f8b1efe7/element/0.4554306838687825-12/value HTTP/1.1" 200 72
+remote_connection.py       440 DEBUG    Finished Request
+remote_connection.py       388 DEBUG    GET http://127.0.0.1:54281/session/8bbb2a6f39263920b1557262f8b1efe7/screenshot {"sessionId": "8bbb2a6f39263920b1557262f8b1efe7"}
+connectionpool.py          393 DEBUG    http://127.0.0.1:54281 "GET /session/8bbb2a6f39263920b1557262f8b1efe7/screenshot HTTP/1.1" 200 73570
+remote_connection.py       440 DEBUG    Finished Request
+remote_connection.py       388 DEBUG    GET http://127.0.0.1:54281/session/8bbb2a6f39263920b1557262f8b1efe7/screenshot {"sessionId": "8bbb2a6f39263920b1557262f8b1efe7"}
+connectionpool.py          393 DEBUG    http://127.0.0.1:54281 "GET /session/8bbb2a6f39263920b1557262f8b1efe7/screenshot HTTP/1.1" 200 73606
+remote_connection.py       440 DEBUG    Finished Request
+remote_connection.py       388 DEBUG    POST http://127.0.0.1:54281/session/8bbb2a6f39263920b1557262f8b1efe7/element {"using": "xpath", "value": "//div[@aria-label='\u7f16\u8f91']//label[contains(text(),'\u5931\u6548\u65e5\u671f')]/following-sibling::div//input", "sessionId": "8bbb2a6f39263920b1557262f8b1efe7"}
+connectionpool.py          393 DEBUG    http://127.0.0.1:54281 "POST /session/8bbb2a6f39263920b1557262f8b1efe7/element HTTP/1.1" 200 103
+remote_connection.py       440 DEBUG    Finished Request
+remote_connection.py       388 DEBUG    POST http://127.0.0.1:54281/session/8bbb2a6f39263920b1557262f8b1efe7/moveto {"element": "0.4554306838687825-13", "sessionId": "8bbb2a6f39263920b1557262f8b1efe7"}
+connectionpool.py          393 DEBUG    http://127.0.0.1:54281 "POST /session/8bbb2a6f39263920b1557262f8b1efe7/moveto HTTP/1.1" 200 72
+remote_connection.py       440 DEBUG    Finished Request
+remote_connection.py       388 DEBUG    POST http://127.0.0.1:54281/session/8bbb2a6f39263920b1557262f8b1efe7/click {"button": 0, "sessionId": "8bbb2a6f39263920b1557262f8b1efe7"}
+connectionpool.py          393 DEBUG    http://127.0.0.1:54281 "POST /session/8bbb2a6f39263920b1557262f8b1efe7/click HTTP/1.1" 200 72
+remote_connection.py       440 DEBUG    Finished Request
+remote_connection.py       388 DEBUG    GET http://127.0.0.1:54281/session/8bbb2a6f39263920b1557262f8b1efe7/screenshot {"sessionId": "8bbb2a6f39263920b1557262f8b1efe7"}
+connectionpool.py          393 DEBUG    http://127.0.0.1:54281 "GET /session/8bbb2a6f39263920b1557262f8b1efe7/screenshot HTTP/1.1" 200 87622
+remote_connection.py       440 DEBUG    Finished Request
+remote_connection.py       388 DEBUG    GET http://127.0.0.1:54281/session/8bbb2a6f39263920b1557262f8b1efe7/screenshot {"sessionId": "8bbb2a6f39263920b1557262f8b1efe7"}
+connectionpool.py          393 DEBUG    http://127.0.0.1:54281 "GET /session/8bbb2a6f39263920b1557262f8b1efe7/screenshot HTTP/1.1" 200 81826
+remote_connection.py       440 DEBUG    Finished Request
+remote_connection.py       388 DEBUG    POST http://127.0.0.1:54281/session/8bbb2a6f39263920b1557262f8b1efe7/element {"using": "xpath", "value": "//th[text()='\u65e5']/parent::*/following-sibling::tr//td[@class='available']//span[contains(text(),'23')]", "sessionId": "8bbb2a6f39263920b1557262f8b1efe7"}
+connectionpool.py          393 DEBUG    http://127.0.0.1:54281 "POST /session/8bbb2a6f39263920b1557262f8b1efe7/element HTTP/1.1" 200 103
+remote_connection.py       440 DEBUG    Finished Request
+remote_connection.py       388 DEBUG    POST http://127.0.0.1:54281/session/8bbb2a6f39263920b1557262f8b1efe7/moveto {"element": "0.4554306838687825-17", "sessionId": "8bbb2a6f39263920b1557262f8b1efe7"}
+connectionpool.py          393 DEBUG    http://127.0.0.1:54281 "POST /session/8bbb2a6f39263920b1557262f8b1efe7/moveto HTTP/1.1" 200 72
+remote_connection.py       440 DEBUG    Finished Request
+remote_connection.py       388 DEBUG    POST http://127.0.0.1:54281/session/8bbb2a6f39263920b1557262f8b1efe7/click {"button": 0, "sessionId": "8bbb2a6f39263920b1557262f8b1efe7"}
+connectionpool.py          393 DEBUG    http://127.0.0.1:54281 "POST /session/8bbb2a6f39263920b1557262f8b1efe7/click HTTP/1.1" 200 72
+remote_connection.py       440 DEBUG    Finished Request
+remote_connection.py       388 DEBUG    GET http://127.0.0.1:54281/session/8bbb2a6f39263920b1557262f8b1efe7/screenshot {"sessionId": "8bbb2a6f39263920b1557262f8b1efe7"}
+connectionpool.py          393 DEBUG    http://127.0.0.1:54281 "GET /session/8bbb2a6f39263920b1557262f8b1efe7/screenshot HTTP/1.1" 200 73678
+remote_connection.py       440 DEBUG    Finished Request
+remote_connection.py       388 DEBUG    GET http://127.0.0.1:54281/session/8bbb2a6f39263920b1557262f8b1efe7/screenshot {"sessionId": "8bbb2a6f39263920b1557262f8b1efe7"}
+connectionpool.py          393 DEBUG    http://127.0.0.1:54281 "GET /session/8bbb2a6f39263920b1557262f8b1efe7/screenshot HTTP/1.1" 200 73718
+remote_connection.py       440 DEBUG    Finished Request
+remote_connection.py       388 DEBUG    POST http://127.0.0.1:54281/session/8bbb2a6f39263920b1557262f8b1efe7/element {"using": "xpath", "value": "//span[contains(text(),'\u786e \u5b9a')]", "sessionId": "8bbb2a6f39263920b1557262f8b1efe7"}
+connectionpool.py          393 DEBUG    http://127.0.0.1:54281 "POST /session/8bbb2a6f39263920b1557262f8b1efe7/element HTTP/1.1" 200 103
+remote_connection.py       440 DEBUG    Finished Request
+remote_connection.py       388 DEBUG    POST http://127.0.0.1:54281/session/8bbb2a6f39263920b1557262f8b1efe7/moveto {"element": "0.4554306838687825-15", "sessionId": "8bbb2a6f39263920b1557262f8b1efe7"}
+connectionpool.py          393 DEBUG    http://127.0.0.1:54281 "POST /session/8bbb2a6f39263920b1557262f8b1efe7/moveto HTTP/1.1" 200 72
+remote_connection.py       440 DEBUG    Finished Request
+remote_connection.py       388 DEBUG    POST http://127.0.0.1:54281/session/8bbb2a6f39263920b1557262f8b1efe7/click {"button": 0, "sessionId": "8bbb2a6f39263920b1557262f8b1efe7"}
+connectionpool.py          393 DEBUG    http://127.0.0.1:54281 "POST /session/8bbb2a6f39263920b1557262f8b1efe7/click HTTP/1.1" 200 72
+remote_connection.py       440 DEBUG    Finished Request
+remote_connection.py       388 DEBUG    GET http://127.0.0.1:54281/session/8bbb2a6f39263920b1557262f8b1efe7/screenshot {"sessionId": "8bbb2a6f39263920b1557262f8b1efe7"}
+connectionpool.py          393 DEBUG    http://127.0.0.1:54281 "GET /session/8bbb2a6f39263920b1557262f8b1efe7/screenshot HTTP/1.1" 200 96350
+remote_connection.py       440 DEBUG    Finished Request
+remote_connection.py       388 DEBUG    GET http://127.0.0.1:54281/session/8bbb2a6f39263920b1557262f8b1efe7/screenshot {"sessionId": "8bbb2a6f39263920b1557262f8b1efe7"}
+connectionpool.py          393 DEBUG    http://127.0.0.1:54281 "GET /session/8bbb2a6f39263920b1557262f8b1efe7/screenshot HTTP/1.1" 200 76610
+remote_connection.py       440 DEBUG    Finished Request
+remote_connection.py       388 DEBUG    POST http://127.0.0.1:54281/session/8bbb2a6f39263920b1557262f8b1efe7/element {"using": "xpath", "value": "(//span[contains(text(),'\u8fd0\u8f93\u65b9\u5f0f')])[1]", "sessionId": "8bbb2a6f39263920b1557262f8b1efe7"}
+connectionpool.py          393 DEBUG    http://127.0.0.1:54281 "POST /session/8bbb2a6f39263920b1557262f8b1efe7/element HTTP/1.1" 200 103
+remote_connection.py       440 DEBUG    Finished Request
+remote_connection.py       388 DEBUG    POST http://127.0.0.1:54281/session/8bbb2a6f39263920b1557262f8b1efe7/moveto {"element": "0.4554306838687825-18", "sessionId": "8bbb2a6f39263920b1557262f8b1efe7"}
+connectionpool.py          393 DEBUG    http://127.0.0.1:54281 "POST /session/8bbb2a6f39263920b1557262f8b1efe7/moveto HTTP/1.1" 200 72
+remote_connection.py       440 DEBUG    Finished Request
+remote_connection.py       388 DEBUG    POST http://127.0.0.1:54281/session/8bbb2a6f39263920b1557262f8b1efe7/click {"button": 0, "sessionId": "8bbb2a6f39263920b1557262f8b1efe7"}
+connectionpool.py          393 DEBUG    http://127.0.0.1:54281 "POST /session/8bbb2a6f39263920b1557262f8b1efe7/click HTTP/1.1" 200 72
+remote_connection.py       440 DEBUG    Finished Request
+remote_connection.py       388 DEBUG    GET http://127.0.0.1:54281/session/8bbb2a6f39263920b1557262f8b1efe7/screenshot {"sessionId": "8bbb2a6f39263920b1557262f8b1efe7"}
+connectionpool.py          393 DEBUG    http://127.0.0.1:54281 "GET /session/8bbb2a6f39263920b1557262f8b1efe7/screenshot HTTP/1.1" 200 89070
+remote_connection.py       440 DEBUG    Finished Request
+remote_connection.py       388 DEBUG    GET http://127.0.0.1:54281/session/8bbb2a6f39263920b1557262f8b1efe7/screenshot {"sessionId": "8bbb2a6f39263920b1557262f8b1efe7"}
+connectionpool.py          393 DEBUG    http://127.0.0.1:54281 "GET /session/8bbb2a6f39263920b1557262f8b1efe7/screenshot HTTP/1.1" 200 40570
+remote_connection.py       440 DEBUG    Finished Request
+remote_connection.py       388 DEBUG    POST http://127.0.0.1:54281/session/8bbb2a6f39263920b1557262f8b1efe7/element {"using": "xpath", "value": "//label[contains(text(),'\u4ee3\u7801')]/following-sibling::div//input", "sessionId": "8bbb2a6f39263920b1557262f8b1efe7"}
+connectionpool.py          393 DEBUG    http://127.0.0.1:54281 "POST /session/8bbb2a6f39263920b1557262f8b1efe7/element HTTP/1.1" 200 103
+remote_connection.py       440 DEBUG    Finished Request
+remote_connection.py       388 DEBUG    POST http://127.0.0.1:54281/session/8bbb2a6f39263920b1557262f8b1efe7/element/0.4554306838687825-19/clear {"id": "0.4554306838687825-19", "sessionId": "8bbb2a6f39263920b1557262f8b1efe7"}
+connectionpool.py          393 DEBUG    http://127.0.0.1:54281 "POST /session/8bbb2a6f39263920b1557262f8b1efe7/element/0.4554306838687825-19/clear HTTP/1.1" 200 72
+remote_connection.py       440 DEBUG    Finished Request
+remote_connection.py       388 DEBUG    POST http://127.0.0.1:54281/session/8bbb2a6f39263920b1557262f8b1efe7/element/0.4554306838687825-19/value {"text": "X102", "value": ["X", "1", "0", "2"], "id": "0.4554306838687825-19", "sessionId": "8bbb2a6f39263920b1557262f8b1efe7"}
+connectionpool.py          393 DEBUG    http://127.0.0.1:54281 "POST /session/8bbb2a6f39263920b1557262f8b1efe7/element/0.4554306838687825-19/value HTTP/1.1" 200 72
+remote_connection.py       440 DEBUG    Finished Request
+remote_connection.py       388 DEBUG    GET http://127.0.0.1:54281/session/8bbb2a6f39263920b1557262f8b1efe7/screenshot {"sessionId": "8bbb2a6f39263920b1557262f8b1efe7"}
+connectionpool.py          393 DEBUG    http://127.0.0.1:54281 "GET /session/8bbb2a6f39263920b1557262f8b1efe7/screenshot HTTP/1.1" 200 90246
+remote_connection.py       440 DEBUG    Finished Request
+remote_connection.py       388 DEBUG    GET http://127.0.0.1:54281/session/8bbb2a6f39263920b1557262f8b1efe7/screenshot {"sessionId": "8bbb2a6f39263920b1557262f8b1efe7"}
+connectionpool.py          393 DEBUG    http://127.0.0.1:54281 "GET /session/8bbb2a6f39263920b1557262f8b1efe7/screenshot HTTP/1.1" 200 75686
+remote_connection.py       440 DEBUG    Finished Request
+remote_connection.py       388 DEBUG    POST http://127.0.0.1:54281/session/8bbb2a6f39263920b1557262f8b1efe7/element {"using": "xpath", "value": "//label[contains(text(),'\u540d\u79f0')]/following-sibling::div//input", "sessionId": "8bbb2a6f39263920b1557262f8b1efe7"}
+connectionpool.py          393 DEBUG    http://127.0.0.1:54281 "POST /session/8bbb2a6f39263920b1557262f8b1efe7/element HTTP/1.1" 200 103
+remote_connection.py       440 DEBUG    Finished Request
+remote_connection.py       388 DEBUG    POST http://127.0.0.1:54281/session/8bbb2a6f39263920b1557262f8b1efe7/element/0.4554306838687825-20/clear {"id": "0.4554306838687825-20", "sessionId": "8bbb2a6f39263920b1557262f8b1efe7"}
+connectionpool.py          393 DEBUG    http://127.0.0.1:54281 "POST /session/8bbb2a6f39263920b1557262f8b1efe7/element/0.4554306838687825-20/clear HTTP/1.1" 200 72
+remote_connection.py       440 DEBUG    Finished Request
+remote_connection.py       388 DEBUG    POST http://127.0.0.1:54281/session/8bbb2a6f39263920b1557262f8b1efe7/element/0.4554306838687825-20/value {"text": "\u7ad9\u5230\u7ad9", "value": ["\u7ad9", "\u5230", "\u7ad9"], "id": "0.4554306838687825-20", "sessionId": "8bbb2a6f39263920b1557262f8b1efe7"}
+connectionpool.py          393 DEBUG    http://127.0.0.1:54281 "POST /session/8bbb2a6f39263920b1557262f8b1efe7/element/0.4554306838687825-20/value HTTP/1.1" 200 72
+remote_connection.py       440 DEBUG    Finished Request
+remote_connection.py       388 DEBUG    GET http://127.0.0.1:54281/session/8bbb2a6f39263920b1557262f8b1efe7/screenshot {"sessionId": "8bbb2a6f39263920b1557262f8b1efe7"}
+connectionpool.py          393 DEBUG    http://127.0.0.1:54281 "GET /session/8bbb2a6f39263920b1557262f8b1efe7/screenshot HTTP/1.1" 200 74554
+remote_connection.py       440 DEBUG    Finished Request
+remote_connection.py       388 DEBUG    GET http://127.0.0.1:54281/session/8bbb2a6f39263920b1557262f8b1efe7/screenshot {"sessionId": "8bbb2a6f39263920b1557262f8b1efe7"}
+connectionpool.py          393 DEBUG    http://127.0.0.1:54281 "GET /session/8bbb2a6f39263920b1557262f8b1efe7/screenshot HTTP/1.1" 200 74550
+remote_connection.py       440 DEBUG    Finished Request
+remote_connection.py       388 DEBUG    POST http://127.0.0.1:54281/session/8bbb2a6f39263920b1557262f8b1efe7/element {"using": "xpath", "value": "//span[contains(text(),'\u67e5\u8be2')]", "sessionId": "8bbb2a6f39263920b1557262f8b1efe7"}
+connectionpool.py          393 DEBUG    http://127.0.0.1:54281 "POST /session/8bbb2a6f39263920b1557262f8b1efe7/element HTTP/1.1" 200 103
+remote_connection.py       440 DEBUG    Finished Request
+remote_connection.py       388 DEBUG    POST http://127.0.0.1:54281/session/8bbb2a6f39263920b1557262f8b1efe7/moveto {"element": "0.4554306838687825-21", "sessionId": "8bbb2a6f39263920b1557262f8b1efe7"}
+connectionpool.py          393 DEBUG    http://127.0.0.1:54281 "POST /session/8bbb2a6f39263920b1557262f8b1efe7/moveto HTTP/1.1" 200 72
+remote_connection.py       440 DEBUG    Finished Request
+remote_connection.py       388 DEBUG    POST http://127.0.0.1:54281/session/8bbb2a6f39263920b1557262f8b1efe7/click {"button": 0, "sessionId": "8bbb2a6f39263920b1557262f8b1efe7"}
+connectionpool.py          393 DEBUG    http://127.0.0.1:54281 "POST /session/8bbb2a6f39263920b1557262f8b1efe7/click HTTP/1.1" 200 72
+remote_connection.py       440 DEBUG    Finished Request
+remote_connection.py       388 DEBUG    GET http://127.0.0.1:54281/session/8bbb2a6f39263920b1557262f8b1efe7/screenshot {"sessionId": "8bbb2a6f39263920b1557262f8b1efe7"}
+connectionpool.py          393 DEBUG    http://127.0.0.1:54281 "GET /session/8bbb2a6f39263920b1557262f8b1efe7/screenshot HTTP/1.1" 200 55014
+remote_connection.py       440 DEBUG    Finished Request
+remote_connection.py       388 DEBUG    GET http://127.0.0.1:54281/session/8bbb2a6f39263920b1557262f8b1efe7/screenshot {"sessionId": "8bbb2a6f39263920b1557262f8b1efe7"}
+connectionpool.py          393 DEBUG    http://127.0.0.1:54281 "GET /session/8bbb2a6f39263920b1557262f8b1efe7/screenshot HTTP/1.1" 200 55014
+remote_connection.py       440 DEBUG    Finished Request
+remote_connection.py       388 DEBUG    POST http://127.0.0.1:54281/session/8bbb2a6f39263920b1557262f8b1efe7/element {"using": "xpath", "value": "(//span[contains(text(),'\u65b0\u589e')])[1]", "sessionId": "8bbb2a6f39263920b1557262f8b1efe7"}
+connectionpool.py          393 DEBUG    http://127.0.0.1:54281 "POST /session/8bbb2a6f39263920b1557262f8b1efe7/element HTTP/1.1" 200 103
+remote_connection.py       440 DEBUG    Finished Request
+remote_connection.py       388 DEBUG    POST http://127.0.0.1:54281/session/8bbb2a6f39263920b1557262f8b1efe7/moveto {"element": "0.4554306838687825-22", "sessionId": "8bbb2a6f39263920b1557262f8b1efe7"}
+connectionpool.py          393 DEBUG    http://127.0.0.1:54281 "POST /session/8bbb2a6f39263920b1557262f8b1efe7/moveto HTTP/1.1" 200 72
+remote_connection.py       440 DEBUG    Finished Request
+remote_connection.py       388 DEBUG    POST http://127.0.0.1:54281/session/8bbb2a6f39263920b1557262f8b1efe7/click {"button": 0, "sessionId": "8bbb2a6f39263920b1557262f8b1efe7"}
+connectionpool.py          393 DEBUG    http://127.0.0.1:54281 "POST /session/8bbb2a6f39263920b1557262f8b1efe7/click HTTP/1.1" 200 72
+remote_connection.py       440 DEBUG    Finished Request
+remote_connection.py       388 DEBUG    GET http://127.0.0.1:54281/session/8bbb2a6f39263920b1557262f8b1efe7/screenshot {"sessionId": "8bbb2a6f39263920b1557262f8b1efe7"}
+connectionpool.py          393 DEBUG    http://127.0.0.1:54281 "GET /session/8bbb2a6f39263920b1557262f8b1efe7/screenshot HTTP/1.1" 200 76806
+remote_connection.py       440 DEBUG    Finished Request
+remote_connection.py       388 DEBUG    GET http://127.0.0.1:54281/session/8bbb2a6f39263920b1557262f8b1efe7/screenshot {"sessionId": "8bbb2a6f39263920b1557262f8b1efe7"}
+connectionpool.py          393 DEBUG    http://127.0.0.1:54281 "GET /session/8bbb2a6f39263920b1557262f8b1efe7/screenshot HTTP/1.1" 200 64522
+remote_connection.py       440 DEBUG    Finished Request
+remote_connection.py       388 DEBUG    POST http://127.0.0.1:54281/session/8bbb2a6f39263920b1557262f8b1efe7/element {"using": "xpath", "value": "//div[@aria-label='\u65b0\u589e']//label[contains(text(),'\u4ee3\u7801')]/following-sibling::div//input", "sessionId": "8bbb2a6f39263920b1557262f8b1efe7"}
+connectionpool.py          393 DEBUG    http://127.0.0.1:54281 "POST /session/8bbb2a6f39263920b1557262f8b1efe7/element HTTP/1.1" 200 103
+remote_connection.py       440 DEBUG    Finished Request
+remote_connection.py       388 DEBUG    POST http://127.0.0.1:54281/session/8bbb2a6f39263920b1557262f8b1efe7/element/0.4554306838687825-23/clear {"id": "0.4554306838687825-23", "sessionId": "8bbb2a6f39263920b1557262f8b1efe7"}
+connectionpool.py          393 DEBUG    http://127.0.0.1:54281 "POST /session/8bbb2a6f39263920b1557262f8b1efe7/element/0.4554306838687825-23/clear HTTP/1.1" 200 72
+remote_connection.py       440 DEBUG    Finished Request
+remote_connection.py       388 DEBUG    POST http://127.0.0.1:54281/session/8bbb2a6f39263920b1557262f8b1efe7/element/0.4554306838687825-23/value {"text": "X645", "value": ["X", "6", "4", "5"], "id": "0.4554306838687825-23", "sessionId": "8bbb2a6f39263920b1557262f8b1efe7"}
+connectionpool.py          393 DEBUG    http://127.0.0.1:54281 "POST /session/8bbb2a6f39263920b1557262f8b1efe7/element/0.4554306838687825-23/value HTTP/1.1" 200 72
+remote_connection.py       440 DEBUG    Finished Request
+remote_connection.py       388 DEBUG    GET http://127.0.0.1:54281/session/8bbb2a6f39263920b1557262f8b1efe7/screenshot {"sessionId": "8bbb2a6f39263920b1557262f8b1efe7"}
+connectionpool.py          393 DEBUG    http://127.0.0.1:54281 "GET /session/8bbb2a6f39263920b1557262f8b1efe7/screenshot HTTP/1.1" 200 62850
+remote_connection.py       440 DEBUG    Finished Request
+remote_connection.py       388 DEBUG    GET http://127.0.0.1:54281/session/8bbb2a6f39263920b1557262f8b1efe7/screenshot {"sessionId": "8bbb2a6f39263920b1557262f8b1efe7"}
+connectionpool.py          393 DEBUG    http://127.0.0.1:54281 "GET /session/8bbb2a6f39263920b1557262f8b1efe7/screenshot HTTP/1.1" 200 62846
+remote_connection.py       440 DEBUG    Finished Request
+remote_connection.py       388 DEBUG    POST http://127.0.0.1:54281/session/8bbb2a6f39263920b1557262f8b1efe7/element {"using": "xpath", "value": "//div[@aria-label='\u65b0\u589e']//label[contains(text(),'\u540d\u79f0')]/following-sibling::div//input", "sessionId": "8bbb2a6f39263920b1557262f8b1efe7"}
+connectionpool.py          393 DEBUG    http://127.0.0.1:54281 "POST /session/8bbb2a6f39263920b1557262f8b1efe7/element HTTP/1.1" 200 103
+remote_connection.py       440 DEBUG    Finished Request
+remote_connection.py       388 DEBUG    POST http://127.0.0.1:54281/session/8bbb2a6f39263920b1557262f8b1efe7/element/0.4554306838687825-24/clear {"id": "0.4554306838687825-24", "sessionId": "8bbb2a6f39263920b1557262f8b1efe7"}
+connectionpool.py          393 DEBUG    http://127.0.0.1:54281 "POST /session/8bbb2a6f39263920b1557262f8b1efe7/element/0.4554306838687825-24/clear HTTP/1.1" 200 72
+remote_connection.py       440 DEBUG    Finished Request
+remote_connection.py       388 DEBUG    POST http://127.0.0.1:54281/session/8bbb2a6f39263920b1557262f8b1efe7/element/0.4554306838687825-24/value {"text": "\u95e8\u5230\u7ad9658", "value": ["\u95e8", "\u5230", "\u7ad9", "6", "5", "8"], "id": "0.4554306838687825-24", "sessionId": "8bbb2a6f39263920b1557262f8b1efe7"}
+connectionpool.py          393 DEBUG    http://127.0.0.1:54281 "POST /session/8bbb2a6f39263920b1557262f8b1efe7/element/0.4554306838687825-24/value HTTP/1.1" 200 72
+remote_connection.py       440 DEBUG    Finished Request
+remote_connection.py       388 DEBUG    GET http://127.0.0.1:54281/session/8bbb2a6f39263920b1557262f8b1efe7/screenshot {"sessionId": "8bbb2a6f39263920b1557262f8b1efe7"}
+connectionpool.py          393 DEBUG    http://127.0.0.1:54281 "GET /session/8bbb2a6f39263920b1557262f8b1efe7/screenshot HTTP/1.1" 200 60690
+remote_connection.py       440 DEBUG    Finished Request
+remote_connection.py       388 DEBUG    GET http://127.0.0.1:54281/session/8bbb2a6f39263920b1557262f8b1efe7/screenshot {"sessionId": "8bbb2a6f39263920b1557262f8b1efe7"}
+connectionpool.py          393 DEBUG    http://127.0.0.1:54281 "GET /session/8bbb2a6f39263920b1557262f8b1efe7/screenshot HTTP/1.1" 200 60710
+remote_connection.py       440 DEBUG    Finished Request
+remote_connection.py       388 DEBUG    POST http://127.0.0.1:54281/session/8bbb2a6f39263920b1557262f8b1efe7/element {"using": "xpath", "value": "//span[@class=\"el-checkbox__input\"]", "sessionId": "8bbb2a6f39263920b1557262f8b1efe7"}
+connectionpool.py          393 DEBUG    http://127.0.0.1:54281 "POST /session/8bbb2a6f39263920b1557262f8b1efe7/element HTTP/1.1" 200 103
+remote_connection.py       440 DEBUG    Finished Request
+remote_connection.py       388 DEBUG    POST http://127.0.0.1:54281/session/8bbb2a6f39263920b1557262f8b1efe7/moveto {"element": "0.4554306838687825-25", "sessionId": "8bbb2a6f39263920b1557262f8b1efe7"}
+connectionpool.py          393 DEBUG    http://127.0.0.1:54281 "POST /session/8bbb2a6f39263920b1557262f8b1efe7/moveto HTTP/1.1" 200 72
+remote_connection.py       440 DEBUG    Finished Request
+remote_connection.py       388 DEBUG    POST http://127.0.0.1:54281/session/8bbb2a6f39263920b1557262f8b1efe7/click {"button": 0, "sessionId": "8bbb2a6f39263920b1557262f8b1efe7"}
+connectionpool.py          393 DEBUG    http://127.0.0.1:54281 "POST /session/8bbb2a6f39263920b1557262f8b1efe7/click HTTP/1.1" 200 72
+remote_connection.py       440 DEBUG    Finished Request
+remote_connection.py       388 DEBUG    GET http://127.0.0.1:54281/session/8bbb2a6f39263920b1557262f8b1efe7/screenshot {"sessionId": "8bbb2a6f39263920b1557262f8b1efe7"}
+connectionpool.py          393 DEBUG    http://127.0.0.1:54281 "GET /session/8bbb2a6f39263920b1557262f8b1efe7/screenshot HTTP/1.1" 200 60898
+remote_connection.py       440 DEBUG    Finished Request
+remote_connection.py       388 DEBUG    GET http://127.0.0.1:54281/session/8bbb2a6f39263920b1557262f8b1efe7/screenshot {"sessionId": "8bbb2a6f39263920b1557262f8b1efe7"}
+connectionpool.py          393 DEBUG    http://127.0.0.1:54281 "GET /session/8bbb2a6f39263920b1557262f8b1efe7/screenshot HTTP/1.1" 200 60890
+remote_connection.py       440 DEBUG    Finished Request
+remote_connection.py       388 DEBUG    POST http://127.0.0.1:54281/session/8bbb2a6f39263920b1557262f8b1efe7/element {"using": "xpath", "value": "//*[@id=\"datePickered\"]", "sessionId": "8bbb2a6f39263920b1557262f8b1efe7"}
+connectionpool.py          393 DEBUG    http://127.0.0.1:54281 "POST /session/8bbb2a6f39263920b1557262f8b1efe7/element HTTP/1.1" 200 103
+remote_connection.py       440 DEBUG    Finished Request
+remote_connection.py       388 DEBUG    POST http://127.0.0.1:54281/session/8bbb2a6f39263920b1557262f8b1efe7/moveto {"element": "0.4554306838687825-26", "sessionId": "8bbb2a6f39263920b1557262f8b1efe7"}
+connectionpool.py          393 DEBUG    http://127.0.0.1:54281 "POST /session/8bbb2a6f39263920b1557262f8b1efe7/moveto HTTP/1.1" 200 72
+remote_connection.py       440 DEBUG    Finished Request
+remote_connection.py       388 DEBUG    POST http://127.0.0.1:54281/session/8bbb2a6f39263920b1557262f8b1efe7/click {"button": 0, "sessionId": "8bbb2a6f39263920b1557262f8b1efe7"}
+connectionpool.py          393 DEBUG    http://127.0.0.1:54281 "POST /session/8bbb2a6f39263920b1557262f8b1efe7/click HTTP/1.1" 200 72
+remote_connection.py       440 DEBUG    Finished Request
+remote_connection.py       388 DEBUG    GET http://127.0.0.1:54281/session/8bbb2a6f39263920b1557262f8b1efe7/screenshot {"sessionId": "8bbb2a6f39263920b1557262f8b1efe7"}
+connectionpool.py          393 DEBUG    http://127.0.0.1:54281 "GET /session/8bbb2a6f39263920b1557262f8b1efe7/screenshot HTTP/1.1" 200 79426
+remote_connection.py       440 DEBUG    Finished Request
+remote_connection.py       388 DEBUG    GET http://127.0.0.1:54281/session/8bbb2a6f39263920b1557262f8b1efe7/screenshot {"sessionId": "8bbb2a6f39263920b1557262f8b1efe7"}
+connectionpool.py          393 DEBUG    http://127.0.0.1:54281 "GET /session/8bbb2a6f39263920b1557262f8b1efe7/screenshot HTTP/1.1" 200 73310
+remote_connection.py       440 DEBUG    Finished Request
+remote_connection.py       388 DEBUG    POST http://127.0.0.1:54281/session/8bbb2a6f39263920b1557262f8b1efe7/element {"using": "xpath", "value": "//th[text()='\u65e5']/parent::*/following-sibling::tr//td[@class='available']//span[contains(text(),'28')]", "sessionId": "8bbb2a6f39263920b1557262f8b1efe7"}
+connectionpool.py          393 DEBUG    http://127.0.0.1:54281 "POST /session/8bbb2a6f39263920b1557262f8b1efe7/element HTTP/1.1" 200 103
+remote_connection.py       440 DEBUG    Finished Request
+remote_connection.py       388 DEBUG    POST http://127.0.0.1:54281/session/8bbb2a6f39263920b1557262f8b1efe7/moveto {"element": "0.4554306838687825-27", "sessionId": "8bbb2a6f39263920b1557262f8b1efe7"}
+connectionpool.py          393 DEBUG    http://127.0.0.1:54281 "POST /session/8bbb2a6f39263920b1557262f8b1efe7/moveto HTTP/1.1" 200 72
+remote_connection.py       440 DEBUG    Finished Request
+remote_connection.py       388 DEBUG    POST http://127.0.0.1:54281/session/8bbb2a6f39263920b1557262f8b1efe7/click {"button": 0, "sessionId": "8bbb2a6f39263920b1557262f8b1efe7"}
+connectionpool.py          393 DEBUG    http://127.0.0.1:54281 "POST /session/8bbb2a6f39263920b1557262f8b1efe7/click HTTP/1.1" 200 72
+remote_connection.py       440 DEBUG    Finished Request
+remote_connection.py       388 DEBUG    GET http://127.0.0.1:54281/session/8bbb2a6f39263920b1557262f8b1efe7/screenshot {"sessionId": "8bbb2a6f39263920b1557262f8b1efe7"}
+connectionpool.py          393 DEBUG    http://127.0.0.1:54281 "GET /session/8bbb2a6f39263920b1557262f8b1efe7/screenshot HTTP/1.1" 200 60226
+remote_connection.py       440 DEBUG    Finished Request
+remote_connection.py       388 DEBUG    GET http://127.0.0.1:54281/session/8bbb2a6f39263920b1557262f8b1efe7/screenshot {"sessionId": "8bbb2a6f39263920b1557262f8b1efe7"}
+connectionpool.py          393 DEBUG    http://127.0.0.1:54281 "GET /session/8bbb2a6f39263920b1557262f8b1efe7/screenshot HTTP/1.1" 200 60206
+remote_connection.py       440 DEBUG    Finished Request
+remote_connection.py       388 DEBUG    POST http://127.0.0.1:54281/session/8bbb2a6f39263920b1557262f8b1efe7/element {"using": "xpath", "value": "//span[contains(text(),'\u786e \u5b9a')]", "sessionId": "8bbb2a6f39263920b1557262f8b1efe7"}
+connectionpool.py          393 DEBUG    http://127.0.0.1:54281 "POST /session/8bbb2a6f39263920b1557262f8b1efe7/element HTTP/1.1" 200 103
+remote_connection.py       440 DEBUG    Finished Request
+remote_connection.py       388 DEBUG    POST http://127.0.0.1:54281/session/8bbb2a6f39263920b1557262f8b1efe7/moveto {"element": "0.4554306838687825-28", "sessionId": "8bbb2a6f39263920b1557262f8b1efe7"}
+connectionpool.py          393 DEBUG    http://127.0.0.1:54281 "POST /session/8bbb2a6f39263920b1557262f8b1efe7/moveto HTTP/1.1" 200 72
+remote_connection.py       440 DEBUG    Finished Request
+remote_connection.py       388 DEBUG    POST http://127.0.0.1:54281/session/8bbb2a6f39263920b1557262f8b1efe7/click {"button": 0, "sessionId": "8bbb2a6f39263920b1557262f8b1efe7"}
+connectionpool.py          393 DEBUG    http://127.0.0.1:54281 "POST /session/8bbb2a6f39263920b1557262f8b1efe7/click HTTP/1.1" 200 72
+remote_connection.py       440 DEBUG    Finished Request
+remote_connection.py       388 DEBUG    GET http://127.0.0.1:54281/session/8bbb2a6f39263920b1557262f8b1efe7/screenshot {"sessionId": "8bbb2a6f39263920b1557262f8b1efe7"}
+connectionpool.py          393 DEBUG    http://127.0.0.1:54281 "GET /session/8bbb2a6f39263920b1557262f8b1efe7/screenshot HTTP/1.1" 200 77974
+remote_connection.py       440 DEBUG    Finished Request
+remote_connection.py       388 DEBUG    GET http://127.0.0.1:54281/session/8bbb2a6f39263920b1557262f8b1efe7/screenshot {"sessionId": "8bbb2a6f39263920b1557262f8b1efe7"}
+connectionpool.py          393 DEBUG    http://127.0.0.1:54281 "GET /session/8bbb2a6f39263920b1557262f8b1efe7/screenshot HTTP/1.1" 200 55110
+remote_connection.py       440 DEBUG    Finished Request
+remote_connection.py       388 DEBUG    POST http://127.0.0.1:54281/session/8bbb2a6f39263920b1557262f8b1efe7/element {"using": "xpath", "value": "//label[contains(text(),'\u4ee3\u7801')]/following-sibling::div//input", "sessionId": "8bbb2a6f39263920b1557262f8b1efe7"}
+connectionpool.py          393 DEBUG    http://127.0.0.1:54281 "POST /session/8bbb2a6f39263920b1557262f8b1efe7/element HTTP/1.1" 200 103
+remote_connection.py       440 DEBUG    Finished Request
+remote_connection.py       388 DEBUG    POST http://127.0.0.1:54281/session/8bbb2a6f39263920b1557262f8b1efe7/element/0.4554306838687825-19/clear {"id": "0.4554306838687825-19", "sessionId": "8bbb2a6f39263920b1557262f8b1efe7"}
+connectionpool.py          393 DEBUG    http://127.0.0.1:54281 "POST /session/8bbb2a6f39263920b1557262f8b1efe7/element/0.4554306838687825-19/clear HTTP/1.1" 200 72
+remote_connection.py       440 DEBUG    Finished Request
+remote_connection.py       388 DEBUG    POST http://127.0.0.1:54281/session/8bbb2a6f39263920b1557262f8b1efe7/element/0.4554306838687825-19/value {"text": "X27", "value": ["X", "2", "7"], "id": "0.4554306838687825-19", "sessionId": "8bbb2a6f39263920b1557262f8b1efe7"}
+connectionpool.py          393 DEBUG    http://127.0.0.1:54281 "POST /session/8bbb2a6f39263920b1557262f8b1efe7/element/0.4554306838687825-19/value HTTP/1.1" 200 72
+remote_connection.py       440 DEBUG    Finished Request
+remote_connection.py       388 DEBUG    GET http://127.0.0.1:54281/session/8bbb2a6f39263920b1557262f8b1efe7/screenshot {"sessionId": "8bbb2a6f39263920b1557262f8b1efe7"}
+connectionpool.py          393 DEBUG    http://127.0.0.1:54281 "GET /session/8bbb2a6f39263920b1557262f8b1efe7/screenshot HTTP/1.1" 200 55234
+remote_connection.py       440 DEBUG    Finished Request
+remote_connection.py       388 DEBUG    GET http://127.0.0.1:54281/session/8bbb2a6f39263920b1557262f8b1efe7/screenshot {"sessionId": "8bbb2a6f39263920b1557262f8b1efe7"}
+connectionpool.py          393 DEBUG    http://127.0.0.1:54281 "GET /session/8bbb2a6f39263920b1557262f8b1efe7/screenshot HTTP/1.1" 200 55254
+remote_connection.py       440 DEBUG    Finished Request
+remote_connection.py       388 DEBUG    POST http://127.0.0.1:54281/session/8bbb2a6f39263920b1557262f8b1efe7/element {"using": "xpath", "value": "//label[contains(text(),'\u540d\u79f0')]/following-sibling::div//input", "sessionId": "8bbb2a6f39263920b1557262f8b1efe7"}
+connectionpool.py          393 DEBUG    http://127.0.0.1:54281 "POST /session/8bbb2a6f39263920b1557262f8b1efe7/element HTTP/1.1" 200 103
+remote_connection.py       440 DEBUG    Finished Request
+remote_connection.py       388 DEBUG    POST http://127.0.0.1:54281/session/8bbb2a6f39263920b1557262f8b1efe7/element/0.4554306838687825-20/clear {"id": "0.4554306838687825-20", "sessionId": "8bbb2a6f39263920b1557262f8b1efe7"}
+connectionpool.py          393 DEBUG    http://127.0.0.1:54281 "POST /session/8bbb2a6f39263920b1557262f8b1efe7/element/0.4554306838687825-20/clear HTTP/1.1" 200 72
+remote_connection.py       440 DEBUG    Finished Request
+remote_connection.py       388 DEBUG    POST http://127.0.0.1:54281/session/8bbb2a6f39263920b1557262f8b1efe7/element/0.4554306838687825-20/value {"text": "\u95e8\u5230\u95e8", "value": ["\u95e8", "\u5230", "\u95e8"], "id": "0.4554306838687825-20", "sessionId": "8bbb2a6f39263920b1557262f8b1efe7"}
+connectionpool.py          393 DEBUG    http://127.0.0.1:54281 "POST /session/8bbb2a6f39263920b1557262f8b1efe7/element/0.4554306838687825-20/value HTTP/1.1" 200 72
+remote_connection.py       440 DEBUG    Finished Request
+remote_connection.py       388 DEBUG    GET http://127.0.0.1:54281/session/8bbb2a6f39263920b1557262f8b1efe7/screenshot {"sessionId": "8bbb2a6f39263920b1557262f8b1efe7"}
+connectionpool.py          393 DEBUG    http://127.0.0.1:54281 "GET /session/8bbb2a6f39263920b1557262f8b1efe7/screenshot HTTP/1.1" 200 54994
+remote_connection.py       440 DEBUG    Finished Request
+remote_connection.py       388 DEBUG    GET http://127.0.0.1:54281/session/8bbb2a6f39263920b1557262f8b1efe7/screenshot {"sessionId": "8bbb2a6f39263920b1557262f8b1efe7"}
+connectionpool.py          393 DEBUG    http://127.0.0.1:54281 "GET /session/8bbb2a6f39263920b1557262f8b1efe7/screenshot HTTP/1.1" 200 55006
+remote_connection.py       440 DEBUG    Finished Request
+remote_connection.py       388 DEBUG    POST http://127.0.0.1:54281/session/8bbb2a6f39263920b1557262f8b1efe7/element {"using": "xpath", "value": "//span[contains(text(),'\u67e5\u8be2')]", "sessionId": "8bbb2a6f39263920b1557262f8b1efe7"}
+connectionpool.py          393 DEBUG    http://127.0.0.1:54281 "POST /session/8bbb2a6f39263920b1557262f8b1efe7/element HTTP/1.1" 200 103
+remote_connection.py       440 DEBUG    Finished Request
+remote_connection.py       388 DEBUG    POST http://127.0.0.1:54281/session/8bbb2a6f39263920b1557262f8b1efe7/moveto {"element": "0.4554306838687825-21", "sessionId": "8bbb2a6f39263920b1557262f8b1efe7"}
+connectionpool.py          393 DEBUG    http://127.0.0.1:54281 "POST /session/8bbb2a6f39263920b1557262f8b1efe7/moveto HTTP/1.1" 200 72
+remote_connection.py       440 DEBUG    Finished Request
+remote_connection.py       388 DEBUG    POST http://127.0.0.1:54281/session/8bbb2a6f39263920b1557262f8b1efe7/click {"button": 0, "sessionId": "8bbb2a6f39263920b1557262f8b1efe7"}
+connectionpool.py          393 DEBUG    http://127.0.0.1:54281 "POST /session/8bbb2a6f39263920b1557262f8b1efe7/click HTTP/1.1" 200 72
+remote_connection.py       440 DEBUG    Finished Request
+remote_connection.py       388 DEBUG    GET http://127.0.0.1:54281/session/8bbb2a6f39263920b1557262f8b1efe7/screenshot {"sessionId": "8bbb2a6f39263920b1557262f8b1efe7"}
+connectionpool.py          393 DEBUG    http://127.0.0.1:54281 "GET /session/8bbb2a6f39263920b1557262f8b1efe7/screenshot HTTP/1.1" 200 54298
+remote_connection.py       440 DEBUG    Finished Request
+remote_connection.py       388 DEBUG    GET http://127.0.0.1:54281/session/8bbb2a6f39263920b1557262f8b1efe7/screenshot {"sessionId": "8bbb2a6f39263920b1557262f8b1efe7"}
+connectionpool.py          393 DEBUG    http://127.0.0.1:54281 "GET /session/8bbb2a6f39263920b1557262f8b1efe7/screenshot HTTP/1.1" 200 54290
+remote_connection.py       440 DEBUG    Finished Request
+remote_connection.py       388 DEBUG    POST http://127.0.0.1:54281/session/8bbb2a6f39263920b1557262f8b1efe7/element {"using": "xpath", "value": "//span[contains(text(),'\u6e05\u7a7a\u67e5\u8be2')]", "sessionId": "8bbb2a6f39263920b1557262f8b1efe7"}
+connectionpool.py          393 DEBUG    http://127.0.0.1:54281 "POST /session/8bbb2a6f39263920b1557262f8b1efe7/element HTTP/1.1" 200 103
+remote_connection.py       440 DEBUG    Finished Request
+remote_connection.py       388 DEBUG    POST http://127.0.0.1:54281/session/8bbb2a6f39263920b1557262f8b1efe7/moveto {"element": "0.4554306838687825-29", "sessionId": "8bbb2a6f39263920b1557262f8b1efe7"}
+connectionpool.py          393 DEBUG    http://127.0.0.1:54281 "POST /session/8bbb2a6f39263920b1557262f8b1efe7/moveto HTTP/1.1" 200 72
+remote_connection.py       440 DEBUG    Finished Request
+remote_connection.py       388 DEBUG    POST http://127.0.0.1:54281/session/8bbb2a6f39263920b1557262f8b1efe7/click {"button": 0, "sessionId": "8bbb2a6f39263920b1557262f8b1efe7"}
+connectionpool.py          393 DEBUG    http://127.0.0.1:54281 "POST /session/8bbb2a6f39263920b1557262f8b1efe7/click HTTP/1.1" 200 72
+remote_connection.py       440 DEBUG    Finished Request
+remote_connection.py       388 DEBUG    GET http://127.0.0.1:54281/session/8bbb2a6f39263920b1557262f8b1efe7/screenshot {"sessionId": "8bbb2a6f39263920b1557262f8b1efe7"}
+connectionpool.py          393 DEBUG    http://127.0.0.1:54281 "GET /session/8bbb2a6f39263920b1557262f8b1efe7/screenshot HTTP/1.1" 200 56914
+remote_connection.py       440 DEBUG    Finished Request
+remote_connection.py       388 DEBUG    GET http://127.0.0.1:54281/session/8bbb2a6f39263920b1557262f8b1efe7/screenshot {"sessionId": "8bbb2a6f39263920b1557262f8b1efe7"}
+connectionpool.py          393 DEBUG    http://127.0.0.1:54281 "GET /session/8bbb2a6f39263920b1557262f8b1efe7/screenshot HTTP/1.1" 200 56962
+remote_connection.py       440 DEBUG    Finished Request
+remote_connection.py       388 DEBUG    POST http://127.0.0.1:54281/session/8bbb2a6f39263920b1557262f8b1efe7/element {"using": "xpath", "value": "(//span[contains(text(),'\u67e5\u8be2')])[1]", "sessionId": "8bbb2a6f39263920b1557262f8b1efe7"}
+connectionpool.py          393 DEBUG    http://127.0.0.1:54281 "POST /session/8bbb2a6f39263920b1557262f8b1efe7/element HTTP/1.1" 200 103
+remote_connection.py       440 DEBUG    Finished Request
+remote_connection.py       388 DEBUG    POST http://127.0.0.1:54281/session/8bbb2a6f39263920b1557262f8b1efe7/moveto {"element": "0.4554306838687825-21", "sessionId": "8bbb2a6f39263920b1557262f8b1efe7"}
+connectionpool.py          393 DEBUG    http://127.0.0.1:54281 "POST /session/8bbb2a6f39263920b1557262f8b1efe7/moveto HTTP/1.1" 200 72
+remote_connection.py       440 DEBUG    Finished Request
+remote_connection.py       388 DEBUG    POST http://127.0.0.1:54281/session/8bbb2a6f39263920b1557262f8b1efe7/click {"button": 0, "sessionId": "8bbb2a6f39263920b1557262f8b1efe7"}
+connectionpool.py          393 DEBUG    http://127.0.0.1:54281 "POST /session/8bbb2a6f39263920b1557262f8b1efe7/click HTTP/1.1" 200 72
+remote_connection.py       440 DEBUG    Finished Request
+remote_connection.py       388 DEBUG    GET http://127.0.0.1:54281/session/8bbb2a6f39263920b1557262f8b1efe7/screenshot {"sessionId": "8bbb2a6f39263920b1557262f8b1efe7"}
+connectionpool.py          393 DEBUG    http://127.0.0.1:54281 "GET /session/8bbb2a6f39263920b1557262f8b1efe7/screenshot HTTP/1.1" 200 76126
+remote_connection.py       440 DEBUG    Finished Request
+remote_connection.py       388 DEBUG    GET http://127.0.0.1:54281/session/8bbb2a6f39263920b1557262f8b1efe7/screenshot {"sessionId": "8bbb2a6f39263920b1557262f8b1efe7"}
+connectionpool.py          393 DEBUG    http://127.0.0.1:54281 "GET /session/8bbb2a6f39263920b1557262f8b1efe7/screenshot HTTP/1.1" 200 76126
+remote_connection.py       440 DEBUG    Finished Request
+remote_connection.py       388 DEBUG    POST http://127.0.0.1:54281/session/8bbb2a6f39263920b1557262f8b1efe7/element {"using": "xpath", "value": "//span[contains(text(),'\u7f16\u8f91')]", "sessionId": "8bbb2a6f39263920b1557262f8b1efe7"}
+connectionpool.py          393 DEBUG    http://127.0.0.1:54281 "POST /session/8bbb2a6f39263920b1557262f8b1efe7/element HTTP/1.1" 200 103
+remote_connection.py       440 DEBUG    Finished Request
+remote_connection.py       388 DEBUG    POST http://127.0.0.1:54281/session/8bbb2a6f39263920b1557262f8b1efe7/moveto {"element": "0.4554306838687825-30", "sessionId": "8bbb2a6f39263920b1557262f8b1efe7"}
+connectionpool.py          393 DEBUG    http://127.0.0.1:54281 "POST /session/8bbb2a6f39263920b1557262f8b1efe7/moveto HTTP/1.1" 200 72
+remote_connection.py       440 DEBUG    Finished Request
+remote_connection.py       388 DEBUG    POST http://127.0.0.1:54281/session/8bbb2a6f39263920b1557262f8b1efe7/click {"button": 0, "sessionId": "8bbb2a6f39263920b1557262f8b1efe7"}
+connectionpool.py          393 DEBUG    http://127.0.0.1:54281 "POST /session/8bbb2a6f39263920b1557262f8b1efe7/click HTTP/1.1" 200 72
+remote_connection.py       440 DEBUG    Finished Request
+remote_connection.py       388 DEBUG    GET http://127.0.0.1:54281/session/8bbb2a6f39263920b1557262f8b1efe7/screenshot {"sessionId": "8bbb2a6f39263920b1557262f8b1efe7"}
+connectionpool.py          393 DEBUG    http://127.0.0.1:54281 "GET /session/8bbb2a6f39263920b1557262f8b1efe7/screenshot HTTP/1.1" 200 87826
+remote_connection.py       440 DEBUG    Finished Request
+remote_connection.py       388 DEBUG    GET http://127.0.0.1:54281/session/8bbb2a6f39263920b1557262f8b1efe7/screenshot {"sessionId": "8bbb2a6f39263920b1557262f8b1efe7"}
+connectionpool.py          393 DEBUG    http://127.0.0.1:54281 "GET /session/8bbb2a6f39263920b1557262f8b1efe7/screenshot HTTP/1.1" 200 75470
+remote_connection.py       440 DEBUG    Finished Request
+remote_connection.py       388 DEBUG    POST http://127.0.0.1:54281/session/8bbb2a6f39263920b1557262f8b1efe7/element {"using": "xpath", "value": "//span[contains(text(),'\u53d6 \u6d88')]", "sessionId": "8bbb2a6f39263920b1557262f8b1efe7"}
+connectionpool.py          393 DEBUG    http://127.0.0.1:54281 "POST /session/8bbb2a6f39263920b1557262f8b1efe7/element HTTP/1.1" 200 103
+remote_connection.py       440 DEBUG    Finished Request
+remote_connection.py       388 DEBUG    POST http://127.0.0.1:54281/session/8bbb2a6f39263920b1557262f8b1efe7/moveto {"element": "0.4554306838687825-31", "sessionId": "8bbb2a6f39263920b1557262f8b1efe7"}
+connectionpool.py          393 DEBUG    http://127.0.0.1:54281 "POST /session/8bbb2a6f39263920b1557262f8b1efe7/moveto HTTP/1.1" 200 72
+remote_connection.py       440 DEBUG    Finished Request
+remote_connection.py       388 DEBUG    POST http://127.0.0.1:54281/session/8bbb2a6f39263920b1557262f8b1efe7/click {"button": 0, "sessionId": "8bbb2a6f39263920b1557262f8b1efe7"}
+connectionpool.py          393 DEBUG    http://127.0.0.1:54281 "POST /session/8bbb2a6f39263920b1557262f8b1efe7/click HTTP/1.1" 200 72
+remote_connection.py       440 DEBUG    Finished Request
+remote_connection.py       388 DEBUG    GET http://127.0.0.1:54281/session/8bbb2a6f39263920b1557262f8b1efe7/screenshot {"sessionId": "8bbb2a6f39263920b1557262f8b1efe7"}
+connectionpool.py          393 DEBUG    http://127.0.0.1:54281 "GET /session/8bbb2a6f39263920b1557262f8b1efe7/screenshot HTTP/1.1" 200 91110
+remote_connection.py       440 DEBUG    Finished Request
+remote_connection.py       388 DEBUG    GET http://127.0.0.1:54281/session/8bbb2a6f39263920b1557262f8b1efe7/screenshot {"sessionId": "8bbb2a6f39263920b1557262f8b1efe7"}
+connectionpool.py          393 DEBUG    http://127.0.0.1:54281 "GET /session/8bbb2a6f39263920b1557262f8b1efe7/screenshot HTTP/1.1" 200 76306
+remote_connection.py       440 DEBUG    Finished Request
+remote_connection.py       388 DEBUG    POST http://127.0.0.1:54281/session/8bbb2a6f39263920b1557262f8b1efe7/element {"using": "xpath", "value": "(//span[contains(text(),'\u5220\u9664')])[17]", "sessionId": "8bbb2a6f39263920b1557262f8b1efe7"}
+connectionpool.py          393 DEBUG    http://127.0.0.1:54281 "POST /session/8bbb2a6f39263920b1557262f8b1efe7/element HTTP/1.1" 200 103
+remote_connection.py       440 DEBUG    Finished Request
+remote_connection.py       388 DEBUG    POST http://127.0.0.1:54281/session/8bbb2a6f39263920b1557262f8b1efe7/moveto {"element": "0.4554306838687825-32", "sessionId": "8bbb2a6f39263920b1557262f8b1efe7"}
+connectionpool.py          393 DEBUG    http://127.0.0.1:54281 "POST /session/8bbb2a6f39263920b1557262f8b1efe7/moveto HTTP/1.1" 200 72
+remote_connection.py       440 DEBUG    Finished Request
+remote_connection.py       388 DEBUG    POST http://127.0.0.1:54281/session/8bbb2a6f39263920b1557262f8b1efe7/click {"button": 0, "sessionId": "8bbb2a6f39263920b1557262f8b1efe7"}
+connectionpool.py          393 DEBUG    http://127.0.0.1:54281 "POST /session/8bbb2a6f39263920b1557262f8b1efe7/click HTTP/1.1" 200 72
+remote_connection.py       440 DEBUG    Finished Request
+remote_connection.py       388 DEBUG    GET http://127.0.0.1:54281/session/8bbb2a6f39263920b1557262f8b1efe7/screenshot {"sessionId": "8bbb2a6f39263920b1557262f8b1efe7"}
+connectionpool.py          393 DEBUG    http://127.0.0.1:54281 "GET /session/8bbb2a6f39263920b1557262f8b1efe7/screenshot HTTP/1.1" 200 78442
+remote_connection.py       440 DEBUG    Finished Request
+remote_connection.py       388 DEBUG    GET http://127.0.0.1:54281/session/8bbb2a6f39263920b1557262f8b1efe7/screenshot {"sessionId": "8bbb2a6f39263920b1557262f8b1efe7"}
+connectionpool.py          393 DEBUG    http://127.0.0.1:54281 "GET /session/8bbb2a6f39263920b1557262f8b1efe7/screenshot HTTP/1.1" 200 74126
+remote_connection.py       440 DEBUG    Finished Request
+remote_connection.py       388 DEBUG    POST http://127.0.0.1:54281/session/8bbb2a6f39263920b1557262f8b1efe7/element {"using": "xpath", "value": "(//span[contains(text(),'\u786e\u5b9a')])[1]", "sessionId": "8bbb2a6f39263920b1557262f8b1efe7"}
+connectionpool.py          393 DEBUG    http://127.0.0.1:54281 "POST /session/8bbb2a6f39263920b1557262f8b1efe7/element HTTP/1.1" 200 103
+remote_connection.py       440 DEBUG    Finished Request
+remote_connection.py       388 DEBUG    POST http://127.0.0.1:54281/session/8bbb2a6f39263920b1557262f8b1efe7/moveto {"element": "0.4554306838687825-33", "sessionId": "8bbb2a6f39263920b1557262f8b1efe7"}
+connectionpool.py          393 DEBUG    http://127.0.0.1:54281 "POST /session/8bbb2a6f39263920b1557262f8b1efe7/moveto HTTP/1.1" 200 72
+remote_connection.py       440 DEBUG    Finished Request
+remote_connection.py       388 DEBUG    POST http://127.0.0.1:54281/session/8bbb2a6f39263920b1557262f8b1efe7/click {"button": 0, "sessionId": "8bbb2a6f39263920b1557262f8b1efe7"}
+connectionpool.py          393 DEBUG    http://127.0.0.1:54281 "POST /session/8bbb2a6f39263920b1557262f8b1efe7/click HTTP/1.1" 200 72
+remote_connection.py       440 DEBUG    Finished Request
+remote_connection.py       388 DEBUG    GET http://127.0.0.1:54281/session/8bbb2a6f39263920b1557262f8b1efe7/screenshot {"sessionId": "8bbb2a6f39263920b1557262f8b1efe7"}
+connectionpool.py          393 DEBUG    http://127.0.0.1:54281 "GET /session/8bbb2a6f39263920b1557262f8b1efe7/screenshot HTTP/1.1" 200 81506
+remote_connection.py       440 DEBUG    Finished Request

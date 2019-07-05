@@ -1,0 +1,21 @@
+[ {
+  "uid" : "650318c8505259ed",
+  "name" : "test_zhuce",
+  "time" : {
+    "start" : 1562209656877,
+    "stop" : 1562209665448,
+    "duration" : 8571
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "921fe3921c1a317e",
+  "name" : "test_111",
+  "time" : {
+    "start" : 1562209624065,
+    "stop" : 1562209656867,
+    "duration" : 32802
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]
